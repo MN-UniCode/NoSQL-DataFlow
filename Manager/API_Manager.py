@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from config.config import API_KEY
 import Aggregates.Book as AB
+import Aggregates.Author as AA
  
 url = "https://api.hardcover.app/v1/graphql"
 headers = {
@@ -11,7 +12,7 @@ headers = {
 
 query = """
 query MyQuery {
-  books(limit: 10) {
+  books(limit: 500) {
     id
     description
     release_year
@@ -22,6 +23,10 @@ query MyQuery {
       context
       updated_at
     }
+    contributions {
+      author_id
+    }
+    cached_tags
   }
 }
 """
@@ -30,5 +35,6 @@ query MyQuery {
 response = requests.post(url, json={"query": query}, headers=headers)
 if response.status_code == 200:
     AB.generate_books_csv(response)
+    AA.generate_author_csv(response)
 else:
     print(f"Error: {response.status_code}, {response.text}")

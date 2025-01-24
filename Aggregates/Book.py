@@ -38,4 +38,4 @@ def generate_books_csv(response):
         #print(f"recommendations: {recommendations}")
 
     df.to_csv("books.csv", index=False)
-    print(df)
+    #print(df)
