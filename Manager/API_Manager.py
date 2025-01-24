@@ -1,6 +1,7 @@
 import time
 import requests
 import pandas as pd
+import os
 from config.config import API_KEY
 
 url = "https://api.hardcover.app/v1/graphql"
@@ -11,7 +12,7 @@ headers = {
 
 query_books = """
 query MyQuery {
-  books(limit: 500) {
+  books(limit: 20) {
     id
     description
     release_year
@@ -61,6 +62,25 @@ query MyQuery($book_id: Int!) {
 }
 """
 
+query_author = """
+query MyQuery {
+  authors(limit: 20) {
+    id
+  }
+}
+"""
+
+query_book_author = """
+query MyQuery($author_id: Int!) {
+  books(where: {contributions: {author_id: {_eq: $author_id}}}) {
+    id
+    release_year
+    cached_tags
+  }
+}
+"""
+
+# Sending the request for books
 # Helper function to handle retries and exponential backoff for API requests
 def make_request_with_retries(query, variables=None, max_retries=5):
     retries = 0
@@ -108,3 +128,27 @@ def retrieve_publisher_by_book(book_id):
 # Sending the request for book reviews with retry logic
 def retrieve_book_reviews(book_id):
     return make_request_with_retries(query_book_reviews, variables={"book_id": book_id})
+
+def retrive_author():
+    return make_request_with_retries(query_author)
+    
+
+def retrieve_book_author(author_id):
+    return make_request_with_retries(query_book_author, variables={"author_id": author_id})
+
+def create_file(df):
+     # Save the file in CSV dir
+    relative_path_csv = "../CSV"
+    relative_path_json = "../JSON"
+
+    file_name_csv = "author.csv"
+    file_name_json = "author.json"
+
+    full_path_csv = os.path.join(os.getcwd(), relative_path_csv, file_name_csv)
+    full_path_json = os.path.join(os.getcwd(), relative_path_json, file_name_json)
+
+    os.makedirs(os.path.dirname(full_path_csv), exist_ok=True)
+    os.makedirs(os.path.dirname(full_path_json), exist_ok=True)
+
+    df.to_csv(full_path_csv, index=False)
+    df.to_json(full_path_json, orient='records', indent=4, index=False)
