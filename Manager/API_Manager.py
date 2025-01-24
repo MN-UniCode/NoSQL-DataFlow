@@ -4,6 +4,10 @@ import pandas as pd
 import os
 from config.config import API_KEY
 
+N_TYPE_OF_FILE = 2
+RELATIVE_PATH = ["CSV", "JSON"]
+CSV = 0
+
 url = "https://api.hardcover.app/v1/graphql"
 headers = {
     "Content-Type": "application/json",
@@ -12,7 +16,7 @@ headers = {
 
 query_books = """
 query MyQuery {
-  books(limit: 20) {
+  books {
     id
     description
     release_year
@@ -23,7 +27,7 @@ query MyQuery {
 
 query_users = """
 query MyQuery {
-  users(limit: 10) {
+  users {
     id
     user_books {
       book_id
@@ -64,7 +68,7 @@ query MyQuery($book_id: Int!) {
 
 query_author = """
 query MyQuery {
-  authors(limit: 20) {
+  authors {
     id
   }
 }
@@ -136,19 +140,12 @@ def retrive_author():
 def retrieve_book_author(author_id):
     return make_request_with_retries(query_book_author, variables={"author_id": author_id})
 
-def create_file(df):
-     # Save the file in CSV dir
-    relative_path_csv = "../CSV"
-    relative_path_json = "../JSON"
+def create_file(df, filename):
 
-    file_name_csv = "author.csv"
-    file_name_json = "author.json"
-
-    full_path_csv = os.path.join(os.getcwd(), relative_path_csv, file_name_csv)
-    full_path_json = os.path.join(os.getcwd(), relative_path_json, file_name_json)
-
-    os.makedirs(os.path.dirname(full_path_csv), exist_ok=True)
-    os.makedirs(os.path.dirname(full_path_json), exist_ok=True)
-
-    df.to_csv(full_path_csv, index=False)
-    df.to_json(full_path_json, orient='records', indent=4, index=False)
+    for i in range(0, N_TYPE_OF_FILE):
+        full_path = os.path.join(os.getcwd(), RELATIVE_PATH[i], filename[i])
+        os.makedirs(os.path.dirname(full_path), exist_ok=True)
+        if i == CSV:
+            df.to_csv(full_path, index=False)
+        else:
+             df.to_json(full_path, orient='records', indent=4, index=False)
