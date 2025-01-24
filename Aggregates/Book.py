@@ -2,10 +2,10 @@ import pandas as pd
 
 # Create the pandas dataframe
 book_data = {
-    "id": None,  # To be updated dynamically
-    "description": None,  # To be updated dynamically
-    "release_year": None,  # To be updated dynamically
-    "title": None,  # To be updated dynamically
+    "id": None,
+    "description": None,
+    "release_year": None,
+    "title": None,
     "publisherId" : None,
     "reviews": []
 }
@@ -14,8 +14,9 @@ df = pd.DataFrame(book_data)
 
 
 def generate_books_csv(response):
-    
-    data = response.json()  # Parsed JSON response
+
+    # Parsed JSON response 
+    data = response.json()  
     
     # Extract the books informations
     books = data.get("data", {}).get("books", [])

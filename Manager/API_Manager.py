@@ -6,7 +6,7 @@ import Aggregates.Book as AB
 url = "https://api.hardcover.app/v1/graphql"
 headers = {
     "Content-Type": "application/json",
-    "Authorization": API_KEY  # Replace with your API key
+    "Authorization": API_KEY
 }
 
 query = """
