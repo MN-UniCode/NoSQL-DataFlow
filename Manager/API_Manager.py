@@ -2,8 +2,6 @@ import time
 import requests
 import pandas as pd
 from config.config import API_KEY
-# import Aggregates.Book as AB
-import Aggregates.User as AU
 
 url = "https://api.hardcover.app/v1/graphql"
 headers = {
