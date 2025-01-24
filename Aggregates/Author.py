@@ -47,5 +47,7 @@ def generate_author_csv():
   
         # Add to the dataframe the new row
         df_authors.loc[len(df_authors)] = [id, books_list_for_author]
-
-    Manager.create_file(df_authors)
+        
+    df_authors.to_csv("author.csv", index=False)
+    df_authors.to_json("author.json", orient='records', indent=4, index=False)
+    #Manager.create_file(df_authors)

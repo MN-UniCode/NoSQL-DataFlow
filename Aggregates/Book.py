@@ -1,6 +1,7 @@
 import pandas as pd
 from Manager.API_Manager import retrieve_books
 from Manager.API_Manager import retrieve_publisher_by_book
+from Manager.API_Manager import retrieve_book_reviews
 
 # Create the pandas dataframe
 book_data = {
@@ -29,22 +30,24 @@ for book in books:
     title = book.get("title", None)
 
     # Manage reviews (nested values)
-    rev = book.get("recommendations", None)
     reviews = []
-    for entry in rev:
-        new_rev = {
-            "reviewId" : entry.get("id", None),
-            "score" : entry.get("score", None),
-            "date" : entry.get("updated_at", None),
-            "comment" : None
-            # TODO: find the correct comment (review)
-        }
-        reviews.append(new_rev)
-
-    # Add the userId to reviews in according to Cassandra schema
-    for i in range(0, len(reviews)-1):
-        #TODO: find the correct userId
-        reviews[i]["userId"] = None
+    data_rev = retrieve_book_reviews(id)
+    if data_rev:
+        user_book_data = data_rev.get("data", {}).get("user_book_reads", [])
+        if user_book_data:
+            for entry in user_book_data:
+                review_data = entry.get("user_book", [])
+                if review_data.get("review", None) or review_data.get("rating", None):
+                    new = {
+                        "reviewiId" : review_data.get("id", None),
+                        "score" : review_data.get("rating", None),
+                        "comment" : review_data.get("review", None),
+                        "date" : review_data.get("date_added", None),
+                        "userId" : review_data.get("user_id", None)
+                    }
+                    reviews.append(new)
+    else:
+        print(f"No reviews found for bookId: {id}")
     
     #TODO: find the correct publisherId
     data = retrieve_publisher_by_book(id)
@@ -53,9 +56,9 @@ for book in books:
         editions = data.get("data", {}).get("editions", [])
         if editions:
             pubId = editions[len(editions)-1].get("publisher_id", None)
-            print(f"pubId: {pubId}, bookId: {id}")
-        else:
-            print(f"No editions found for bookId: {id}")
+            # print(f"pubId: {pubId}, bookId: {id}")
+        # else:
+            # print(f"No editions found for bookId: {id}")
 
     df.loc[len(df)] = [id, title, release_year, description, "English", reviews, pubId]
     # print(f"recommendations: {recommendations}")
