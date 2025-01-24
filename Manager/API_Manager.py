@@ -18,10 +18,6 @@ query MyQuery {
     description
     release_year
     title
-    contributions {
-      author_id
-    }
-    cached_tags
   }
 }
 """
@@ -156,7 +152,7 @@ def create_file(df):
      # Save the file in CSV dir
     relative_path_csv = "../CSV"
     relative_path_json = "../JSON"
-    
+
     file_name_csv = "author.csv"
     file_name_json = "author.json"
 
