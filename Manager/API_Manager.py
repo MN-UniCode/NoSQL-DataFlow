@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import os
 from config.config import API_KEY
 # import Aggregates.Book as AB
 import Aggregates.User as AU
@@ -17,6 +18,10 @@ query MyQuery {
     description
     release_year
     title
+    contributions {
+      author_id
+    }
+    cached_tags
   }
 }
 """
@@ -58,6 +63,24 @@ query MyQuery($book_id: Int!) {
       id
       user_id
     }
+  }
+}
+"""
+
+query_author = """
+query MyQuery(limit: 10) {
+  authors {
+    id
+  }
+}
+"""
+
+query_book_author = """
+query MyQuery($author_id: Int!) {
+  books(where: {contributions: {author_id: {_eq: $author_id}}}) {
+    id
+    release_year
+    cached_tags
   }
 }
 """
@@ -106,3 +129,42 @@ def retrieve_book_reviews(book_id):
         return response.json()
     else:
         print(f"Error: {response.status_code}, {response.text}")
+
+def retrive_author():
+    response = requests.post(url, json={"query": query_author}, headers=headers)
+    if response.status_code == 200:
+        return response.json()
+        # AB.generate_books_csv(response)
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+
+def retrieve_book_author(author_id):
+    response = requests.post(
+        url, 
+        json={
+        "query": query_book_author, 
+        "variables": {"author_id": author_id}
+        }, 
+        headers=headers
+        )
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f"Error: {response.status_code}, {response.text}")
+
+def create_file(df):
+     # Save the file in CSV dir
+    relative_path_csv = "../CSV"
+    relative_path_json = "../JSON"
+    
+    file_name_csv = "author.csv"
+    file_name_json = "author.json"
+
+    full_path_csv = os.path.join(os.getcwd(), relative_path_csv, file_name_csv)
+    full_path_json = os.path.join(os.getcwd(), relative_path_json, file_name_json)
+
+    os.makedirs(os.path.dirname(full_path_csv), exist_ok=True)
+    os.makedirs(os.path.dirname(full_path_json), exist_ok=True)
+
+    df.to_csv(full_path_csv, index=False)
+    df.to_json(full_path_json, orient='records', indent=4, index=False)
