@@ -15,7 +15,7 @@ headers = {
 
 query_books = """
 query MyQuery {
-  books {
+  books(where: {release_year: {_is_null: false}}) {
     id
     description
     release_year
