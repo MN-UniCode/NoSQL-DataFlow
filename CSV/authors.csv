@@ -1,101 +1,101 @@
 authorId,books
-731550,"[{'bookid': 1299145, 'publicationyear': 2008, 'genres': None}]"
+731550,"[{'bookid': 1299145, 'publicationyear': 2008, 'genres': []}]"
 920721,[]
-739351,"[{'bookid': 1319800, 'publicationyear': 2013, 'genres': None}]"
-752439,"[{'bookid': 1354064, 'publicationyear': 2014, 'genres': None}]"
+739351,"[{'bookid': 1319800, 'publicationyear': 2013, 'genres': []}]"
+752439,"[{'bookid': 1354064, 'publicationyear': 2014, 'genres': []}]"
 792434,"[{'bookid': 95710, 'publicationyear': 1992, 'genres': ['Nonfiction', 'Technology & Engineering', 'Business planning']}]"
-752520,"[{'bookid': 1354313, 'publicationyear': 2018, 'genres': None}]"
-755842,"[{'bookid': 1362216, 'publicationyear': None, 'genres': None}]"
+752520,"[{'bookid': 1354313, 'publicationyear': 2018, 'genres': []}]"
+755842,[]
 856192,[]
 767735,"[{'bookid': 1383201, 'publicationyear': 2013, 'genres': ['Nature']}]"
-653491,"[{'bookid': 1107716, 'publicationyear': None, 'genres': None}]"
+653491,[]
 856193,[]
 856194,[]
-159977,"[{'bookid': 222235, 'publicationyear': None, 'genres': None}, {'bookid': 685195, 'publicationyear': 2011, 'genres': None}, {'bookid': 81497, 'publicationyear': None, 'genres': None}, {'bookid': 191727, 'publicationyear': 2009, 'genres': None}]"
-119481,"[{'bookid': 245499, 'publicationyear': None, 'genres': None}, {'bookid': 120837, 'publicationyear': None, 'genres': None}]"
-126851,"[{'bookid': 95699, 'publicationyear': 1992, 'genres': ['History', 'Civilization', ' Western']}, {'bookid': 132010, 'publicationyear': None, 'genres': None}]"
-159966,"[{'bookid': 222226, 'publicationyear': None, 'genres': None}]"
-992548,"[{'bookid': 1648269, 'publicationyear': 2024, 'genres': None}]"
-920683,"[{'bookid': 1507549, 'publicationyear': 2009, 'genres': None}]"
-205603,"[{'bookid': 5632, 'publicationyear': None, 'genres': None}]"
-205624,"[{'bookid': 363587, 'publicationyear': None, 'genres': None}]"
-163005,"[{'bookid': 747741, 'publicationyear': 2022, 'genres': None}, {'bookid': 844247, 'publicationyear': None, 'genres': None}, {'bookid': 1178807, 'publicationyear': 2015, 'genres': None}, {'bookid': 19712, 'publicationyear': None, 'genres': None}, {'bookid': 495968, 'publicationyear': 2016, 'genres': None}, {'bookid': 717151, 'publicationyear': None, 'genres': None}, {'bookid': 844011, 'publicationyear': None, 'genres': None}, {'bookid': 905183, 'publicationyear': None, 'genres': None}, {'bookid': 1390908, 'publicationyear': 2022, 'genres': ['Young Adult', 'Juvenile Fiction']}, {'bookid': 1655220, 'publicationyear': 2021, 'genres': None}, {'bookid': 288239, 'publicationyear': None, 'genres': None}]"
+159977,"[{'bookid': 191727, 'publicationyear': 2009, 'genres': []}, {'bookid': 685195, 'publicationyear': 2011, 'genres': []}]"
+119481,[]
+126851,"[{'bookid': 95699, 'publicationyear': 1992, 'genres': ['History', 'Civilization', ' Western']}]"
+159966,[]
+992548,"[{'bookid': 1648269, 'publicationyear': 2024, 'genres': []}]"
+920683,"[{'bookid': 1507549, 'publicationyear': 2009, 'genres': []}]"
+205603,[]
+205624,[]
+163005,"[{'bookid': 1390908, 'publicationyear': 2022, 'genres': ['Young Adult', 'Juvenile Fiction']}, {'bookid': 747741, 'publicationyear': 2022, 'genres': []}, {'bookid': 1178807, 'publicationyear': 2015, 'genres': []}, {'bookid': 495968, 'publicationyear': 2016, 'genres': []}, {'bookid': 1655220, 'publicationyear': 2021, 'genres': []}]"
 270242,[]
 270244,[]
-481946,"[{'bookid': 1401986, 'publicationyear': None, 'genres': None}, {'bookid': 1631465, 'publicationyear': 2019, 'genres': None}, {'bookid': 1300046, 'publicationyear': None, 'genres': None}, {'bookid': 1300063, 'publicationyear': None, 'genres': None}, {'bookid': 816863, 'publicationyear': 2022, 'genres': None}, {'bookid': 817148, 'publicationyear': None, 'genres': None}, {'bookid': 816849, 'publicationyear': 2022, 'genres': None}, {'bookid': 1575185, 'publicationyear': None, 'genres': None}]"
-538026,"[{'bookid': 908956, 'publicationyear': 1883, 'genres': None}]"
+481946,"[{'bookid': 816863, 'publicationyear': 2022, 'genres': []}, {'bookid': 816849, 'publicationyear': 2022, 'genres': []}, {'bookid': 1631465, 'publicationyear': 2019, 'genres': []}]"
+538026,"[{'bookid': 908956, 'publicationyear': 1883, 'genres': []}]"
 787440,[]
-731756,"[{'bookid': 1299856, 'publicationyear': None, 'genres': None}]"
+731756,[]
 800882,"[{'bookid': 95733, 'publicationyear': 2005, 'genres': ['Nature']}]"
 78833,[]
 828344,"[{'bookid': 1044188, 'publicationyear': 2023, 'genres': ['Fantasy']}]"
 856196,[]
 826983,[]
 826984,[]
-735731,"[{'bookid': 1311192, 'publicationyear': None, 'genres': None}]"
-205641,"[{'bookid': 118209, 'publicationyear': None, 'genres': None}]"
-737869,"[{'bookid': 1316460, 'publicationyear': None, 'genres': None}, {'bookid': 1316282, 'publicationyear': 2012, 'genres': None}]"
-752412,"[{'bookid': 1354004, 'publicationyear': 1883, 'genres': None}]"
-754270,"[{'bookid': 1358857, 'publicationyear': None, 'genres': None}]"
-756616,"[{'bookid': 1364188, 'publicationyear': None, 'genres': None}]"
+735731,[]
+205641,[]
+737869,"[{'bookid': 1316282, 'publicationyear': 2012, 'genres': []}]"
+752412,"[{'bookid': 1354004, 'publicationyear': 1883, 'genres': []}]"
+754270,[]
+756616,[]
 270238,"[{'bookid': 354772, 'publicationyear': 1989, 'genres': ['Fiction', 'Fantasy', 'Science fiction', 'Thriller', 'English fiction']}]"
-758986,"[{'bookid': 1367902, 'publicationyear': 2010, 'genres': None}]"
+758986,"[{'bookid': 1367902, 'publicationyear': 2010, 'genres': []}]"
 920722,[]
-371351,"[{'bookid': 1507584, 'publicationyear': 2010, 'genres': ['Mathematics']}, {'bookid': 631997, 'publicationyear': 1992, 'genres': None}]"
-289788,"[{'bookid': 499451, 'publicationyear': 2008, 'genres': None}]"
-347225,"[{'bookid': 591239, 'publicationyear': None, 'genres': None}, {'bookid': 1255426, 'publicationyear': 2016, 'genres': None}]"
-538027,"[{'bookid': 908958, 'publicationyear': 1976, 'genres': None}]"
-78859,"[{'bookid': 182560, 'publicationyear': None, 'genres': None}]"
-653498,"[{'bookid': 1107733, 'publicationyear': 2009, 'genres': None}]"
-538028,"[{'bookid': 908958, 'publicationyear': 1976, 'genres': None}]"
-734614,"[{'bookid': 1308671, 'publicationyear': None, 'genres': None}]"
-538029,"[{'bookid': 908960, 'publicationyear': 2017, 'genres': None}]"
-538030,"[{'bookid': 908962, 'publicationyear': 1965, 'genres': None}]"
-734615,"[{'bookid': 1308672, 'publicationyear': None, 'genres': None}]"
-653492,"[{'bookid': 1107718, 'publicationyear': None, 'genres': None}]"
+371351,"[{'bookid': 1507584, 'publicationyear': 2010, 'genres': ['Mathematics']}, {'bookid': 631997, 'publicationyear': 1992, 'genres': []}]"
+289788,"[{'bookid': 499451, 'publicationyear': 2008, 'genres': []}]"
+347225,"[{'bookid': 1255426, 'publicationyear': 2016, 'genres': []}]"
+538027,"[{'bookid': 908958, 'publicationyear': 1976, 'genres': []}]"
+78859,[]
+653498,"[{'bookid': 1107733, 'publicationyear': 2009, 'genres': []}]"
+538028,"[{'bookid': 908958, 'publicationyear': 1976, 'genres': []}]"
+734614,[]
+538029,"[{'bookid': 908960, 'publicationyear': 2017, 'genres': []}]"
+538030,"[{'bookid': 908962, 'publicationyear': 1965, 'genres': []}]"
+734615,[]
+653492,[]
 826985,[]
-731882,"[{'bookid': 1300248, 'publicationyear': None, 'genres': None}]"
-732442,"[{'bookid': 1303188, 'publicationyear': 2014, 'genres': None}]"
+731882,[]
+732442,"[{'bookid': 1303188, 'publicationyear': 2014, 'genres': []}]"
 736754,[]
-205601,"[{'bookid': 325382, 'publicationyear': None, 'genres': None}]"
-744641,"[{'bookid': 1333748, 'publicationyear': 1958, 'genres': None}]"
-763737,"[{'bookid': 1378127, 'publicationyear': 2008, 'genres': None}]"
+205601,[]
+744641,"[{'bookid': 1333748, 'publicationyear': 1958, 'genres': []}]"
+763737,"[{'bookid': 1378127, 'publicationyear': 2008, 'genres': []}]"
 773288,"[{'bookid': 95873, 'publicationyear': 1990, 'genres': ['Young Adult', 'Juvenile Nonfiction']}]"
 826986,[]
-538031,"[{'bookid': 908964, 'publicationyear': 2015, 'genres': None}]"
-992549,"[{'bookid': 1648270, 'publicationyear': 2024, 'genres': None}]"
+538031,"[{'bookid': 908964, 'publicationyear': 2015, 'genres': []}]"
+992549,"[{'bookid': 1648270, 'publicationyear': 2024, 'genres': []}]"
 992550,[]
-365141,"[{'bookid': 847364, 'publicationyear': 1855, 'genres': None}, {'bookid': 1042467, 'publicationyear': 1865, 'genres': None}, {'bookid': 1042469, 'publicationyear': 1863, 'genres': None}, {'bookid': 822371, 'publicationyear': 1900, 'genres': None}, {'bookid': 965460, 'publicationyear': 1864, 'genres': None}, {'bookid': 883767, 'publicationyear': 1869, 'genres': None}, {'bookid': 620020, 'publicationyear': 1870, 'genres': None}, {'bookid': 1044303, 'publicationyear': 1909, 'genres': None}, {'bookid': 1044301, 'publicationyear': 1869, 'genres': None}, {'bookid': 975822, 'publicationyear': 1864, 'genres': None}]"
-119514,"[{'bookid': 379377, 'publicationyear': None, 'genres': None}]"
-119516,"[{'bookid': 899322, 'publicationyear': 2012, 'genres': None}, {'bookid': 773507, 'publicationyear': 2020, 'genres': None}, {'bookid': 145140, 'publicationyear': 2008, 'genres': None}, {'bookid': 1042979, 'publicationyear': 2000, 'genres': None}]"
-205651,"[{'bookid': 199656, 'publicationyear': None, 'genres': None}, {'bookid': 1294110, 'publicationyear': 1988, 'genres': None}]"
-205670,"[{'bookid': 62935, 'publicationyear': None, 'genres': None}, {'bookid': 250498, 'publicationyear': None, 'genres': None}]"
+365141,"[{'bookid': 1042467, 'publicationyear': 1865, 'genres': []}, {'bookid': 1044303, 'publicationyear': 1909, 'genres': []}, {'bookid': 822371, 'publicationyear': 1900, 'genres': []}, {'bookid': 1044301, 'publicationyear': 1869, 'genres': []}, {'bookid': 965460, 'publicationyear': 1864, 'genres': []}, {'bookid': 975822, 'publicationyear': 1864, 'genres': []}, {'bookid': 1042469, 'publicationyear': 1863, 'genres': []}, {'bookid': 883767, 'publicationyear': 1869, 'genres': []}, {'bookid': 847364, 'publicationyear': 1855, 'genres': []}, {'bookid': 620020, 'publicationyear': 1870, 'genres': []}]"
+119514,[]
+119516,"[{'bookid': 899322, 'publicationyear': 2012, 'genres': []}, {'bookid': 1042979, 'publicationyear': 2000, 'genres': []}, {'bookid': 773507, 'publicationyear': 2020, 'genres': []}, {'bookid': 145140, 'publicationyear': 2008, 'genres': []}]"
+205651,"[{'bookid': 1294110, 'publicationyear': 1988, 'genres': []}]"
+205670,[]
 270257,[]
-289789,"[{'bookid': 1095882, 'publicationyear': 1991, 'genres': None}, {'bookid': 731768, 'publicationyear': 2000, 'genres': None}, {'bookid': 499451, 'publicationyear': 2008, 'genres': None}, {'bookid': 1461019, 'publicationyear': 2001, 'genres': ['History', 'Biography']}]"
-319474,"[{'bookid': 544136, 'publicationyear': 2017, 'genres': None}]"
-920723,"[{'bookid': 1507580, 'publicationyear': 2007, 'genres': None}]"
-734616,"[{'bookid': 1308675, 'publicationyear': None, 'genres': None}]"
-653497,"[{'bookid': 1107731, 'publicationyear': None, 'genres': None}, {'bookid': 1281884, 'publicationyear': None, 'genres': None}]"
-78916,"[{'bookid': 47222, 'publicationyear': None, 'genres': None}]"
+289789,"[{'bookid': 1095882, 'publicationyear': 1991, 'genres': []}, {'bookid': 499451, 'publicationyear': 2008, 'genres': []}, {'bookid': 1461019, 'publicationyear': 2001, 'genres': ['History', 'Biography']}, {'bookid': 731768, 'publicationyear': 2000, 'genres': []}]"
+319474,"[{'bookid': 544136, 'publicationyear': 2017, 'genres': []}]"
+920723,"[{'bookid': 1507580, 'publicationyear': 2007, 'genres': []}]"
+734616,[]
+653497,[]
+78916,[]
 270256,[]
-653493,"[{'bookid': 1107719, 'publicationyear': None, 'genres': ['Fiction', 'Dystopian', 'Thriller', 'Crime', 'Punishment']}, {'bookid': 1299509, 'publicationyear': None, 'genres': None}]"
+653493,[]
 78921,[]
-731891,"[{'bookid': 1300267, 'publicationyear': None, 'genres': None}]"
-159982,"[{'bookid': 177395, 'publicationyear': None, 'genres': None}]"
-706259,"[{'bookid': 1238379, 'publicationyear': None, 'genres': None}, {'bookid': 1238282, 'publicationyear': None, 'genres': None}]"
-763010,"[{'bookid': 1376560, 'publicationyear': None, 'genres': None}, {'bookid': 1377123, 'publicationyear': None, 'genres': None}, {'bookid': 1377578, 'publicationyear': None, 'genres': None}, {'bookid': 1377543, 'publicationyear': None, 'genres': None}]"
+731891,[]
+159982,[]
+706259,[]
+763010,[]
 920724,[]
-159981,"[{'bookid': 110544, 'publicationyear': None, 'genres': None}]"
-538034,"[{'bookid': 1188464, 'publicationyear': 2015, 'genres': None}, {'bookid': 908968, 'publicationyear': 1987, 'genres': None}, {'bookid': 1356552, 'publicationyear': None, 'genres': None}]"
-538032,"[{'bookid': 908965, 'publicationyear': 2001, 'genres': None}]"
-205605,"[{'bookid': 647466, 'publicationyear': 2010, 'genres': None}, {'bookid': 308506, 'publicationyear': None, 'genres': None}]"
+159981,[]
+538034,"[{'bookid': 908968, 'publicationyear': 1987, 'genres': []}, {'bookid': 1188464, 'publicationyear': 2015, 'genres': []}]"
+538032,"[{'bookid': 908965, 'publicationyear': 2001, 'genres': []}]"
+205605,"[{'bookid': 647466, 'publicationyear': 2010, 'genres': []}]"
 992551,[]
-205632,"[{'bookid': 134321, 'publicationyear': None, 'genres': None}, {'bookid': 658407, 'publicationyear': 2004, 'genres': None}]"
-205654,"[{'bookid': 154676, 'publicationyear': None, 'genres': None}]"
-538033,"[{'bookid': 908965, 'publicationyear': 2001, 'genres': None}]"
-208147,"[{'bookid': 217542, 'publicationyear': None, 'genres': None}]"
-208152,"[{'bookid': 298681, 'publicationyear': None, 'genres': None}]"
+205632,"[{'bookid': 658407, 'publicationyear': 2004, 'genres': []}]"
+205654,[]
+538033,"[{'bookid': 908965, 'publicationyear': 2001, 'genres': []}]"
+208147,[]
+208152,[]
 920773,"[{'bookid': 1507625, 'publicationyear': 1987, 'genres': ['Mathematics']}]"
 270243,"[{'bookid': 354961, 'publicationyear': 1908, 'genres': ['Fantasy', 'Adventure', 'Science fiction', 'Classics']}]"
-734617,"[{'bookid': 1308676, 'publicationyear': None, 'genres': None}]"
-289791,"[{'bookid': 499454, 'publicationyear': 2018, 'genres': None}, {'bookid': 1365066, 'publicationyear': 1981, 'genres': None}, {'bookid': 807300, 'publicationyear': 2006, 'genres': None}]"
+734617,[]
+289791,"[{'bookid': 1365066, 'publicationyear': 1981, 'genres': []}, {'bookid': 499454, 'publicationyear': 2018, 'genres': []}, {'bookid': 807300, 'publicationyear': 2006, 'genres': []}]"

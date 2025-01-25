@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 import pyScript.Manager.API_Manager as Manager
 
 # Create the pandas dataframe
@@ -26,10 +27,24 @@ def generate_users_file():
                 book_info = {}
 
                 # Manage atomic values
-                book_info["bookId"] = book.get("id", None)
-                book_info["title"] = book.get("title", None)
-                book_info["publicationYear"] = book.get("release_year", None)
-                book_info["description"] = book.get("description", None)
+                book_info["bookid"] = book.get("id", None)
+                
+                if book.get("title", None) is not None:
+                    # Remove all characters except letters and numbers using regex
+                    book_info["title"]  = re.sub(r'[^a-zA-Z0-9 ]', '', book.get("title"))
+                else:
+                    book_info["title"] = book.get("title", None)
+                #book_info["title"] = book.get("title", None)
+                book_info["publicationyear"] = book.get("release_year")
+                if (book_info["publicationyear"] is None):
+                    continue
+
+                if book.get("description", None) is not None:
+                    # Remove all characters except letters and numbers using regex
+                    book_info["description"] = re.sub(r'[^a-zA-Z0-9 ]', '', book.get("description"))
+                else:
+                    book_info["description"] = book.get("description", None)
+
                 book_info["language"] = "English"
 
                 # Manage genres (nested values)

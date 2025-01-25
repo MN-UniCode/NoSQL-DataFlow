@@ -32,7 +32,7 @@ def generate_author_csv():
             # Extract book id
             bookId = book.get("id")
             # Extract the publication year
-            publicationYear = book.get("release_year")
+            publicationYear = book.get("release_year", None)
             # Extract the genre
             cached_tags = book.get("cached_tags", None)
             tag_list = cached_tags.get("Genre", None)
@@ -41,7 +41,7 @@ def generate_author_csv():
                 for element in tag_list:
                     genre.append(element["tag"])
             else:
-                genre = None
+                genre = []
             
             books_list_for_author.append({"bookid" : bookId, "publicationyear" : publicationYear, "genres" : genre})  
   

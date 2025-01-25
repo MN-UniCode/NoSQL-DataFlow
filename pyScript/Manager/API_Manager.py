@@ -26,9 +26,9 @@ query MyQuery {
 
 query_users = """
 query MyQuery {
-  users {
+  users(where: {user_books: {book: {release_year: {_is_null: false}}}}) {
     id
-    user_books {
+    user_books(limit: 4) {
       book_id
       book {
         id
@@ -75,7 +75,9 @@ query MyQuery {
 
 query_book_author = """
 query MyQuery($author_id: Int!) {
-  books(where: {contributions: {author_id: {_eq: $author_id}}}) {
+  books(
+    where: {contributions: {author_id: {_eq: $author_id}, book: {release_year: {_is_null: false}}}}
+  ) {
     id
     release_year
     cached_tags

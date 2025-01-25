@@ -5,7 +5,9 @@
             {
                 "bookid":1299145,
                 "publicationyear":2008,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -21,7 +23,9 @@
             {
                 "bookid":1319800,
                 "publicationyear":2013,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -31,7 +35,9 @@
             {
                 "bookid":1354064,
                 "publicationyear":2014,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -55,18 +61,16 @@
             {
                 "bookid":1354313,
                 "publicationyear":2018,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":755842,
         "books":[
-            {
-                "bookid":1362216,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -90,11 +94,7 @@
     {
         "authorId":653491,
         "books":[
-            {
-                "bookid":1107716,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -113,40 +113,25 @@
         "authorId":159977,
         "books":[
             {
-                "bookid":222235,
-                "publicationyear":null,
-                "genres":null
+                "bookid":191727,
+                "publicationyear":2009,
+                "genres":[
+
+                ]
             },
             {
                 "bookid":685195,
                 "publicationyear":2011,
-                "genres":null
-            },
-            {
-                "bookid":81497,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":191727,
-                "publicationyear":2009,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":119481,
         "books":[
-            {
-                "bookid":245499,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":120837,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -160,22 +145,13 @@
                     "Civilization",
                     " Western"
                 ]
-            },
-            {
-                "bookid":132010,
-                "publicationyear":null,
-                "genres":null
             }
         ]
     },
     {
         "authorId":159966,
         "books":[
-            {
-                "bookid":222226,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -184,7 +160,9 @@
             {
                 "bookid":1648269,
                 "publicationyear":2024,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -194,73 +172,27 @@
             {
                 "bookid":1507549,
                 "publicationyear":2009,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":205603,
         "books":[
-            {
-                "bookid":5632,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":205624,
         "books":[
-            {
-                "bookid":363587,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":163005,
         "books":[
-            {
-                "bookid":747741,
-                "publicationyear":2022,
-                "genres":null
-            },
-            {
-                "bookid":844247,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1178807,
-                "publicationyear":2015,
-                "genres":null
-            },
-            {
-                "bookid":19712,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":495968,
-                "publicationyear":2016,
-                "genres":null
-            },
-            {
-                "bookid":717151,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":844011,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":905183,
-                "publicationyear":null,
-                "genres":null
-            },
             {
                 "bookid":1390908,
                 "publicationyear":2022,
@@ -270,14 +202,32 @@
                 ]
             },
             {
-                "bookid":1655220,
-                "publicationyear":2021,
-                "genres":null
+                "bookid":747741,
+                "publicationyear":2022,
+                "genres":[
+
+                ]
             },
             {
-                "bookid":288239,
-                "publicationyear":null,
-                "genres":null
+                "bookid":1178807,
+                "publicationyear":2015,
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":495968,
+                "publicationyear":2016,
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":1655220,
+                "publicationyear":2021,
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -297,44 +247,25 @@
         "authorId":481946,
         "books":[
             {
-                "bookid":1401986,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1631465,
-                "publicationyear":2019,
-                "genres":null
-            },
-            {
-                "bookid":1300046,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1300063,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
                 "bookid":816863,
                 "publicationyear":2022,
-                "genres":null
-            },
-            {
-                "bookid":817148,
-                "publicationyear":null,
-                "genres":null
+                "genres":[
+
+                ]
             },
             {
                 "bookid":816849,
                 "publicationyear":2022,
-                "genres":null
+                "genres":[
+
+                ]
             },
             {
-                "bookid":1575185,
-                "publicationyear":null,
-                "genres":null
+                "bookid":1631465,
+                "publicationyear":2019,
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -344,7 +275,9 @@
             {
                 "bookid":908956,
                 "publicationyear":1883,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -357,11 +290,7 @@
     {
         "authorId":731756,
         "books":[
-            {
-                "bookid":1299856,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -415,35 +344,24 @@
     {
         "authorId":735731,
         "books":[
-            {
-                "bookid":1311192,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":205641,
         "books":[
-            {
-                "bookid":118209,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":737869,
         "books":[
             {
-                "bookid":1316460,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
                 "bookid":1316282,
                 "publicationyear":2012,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -453,28 +371,22 @@
             {
                 "bookid":1354004,
                 "publicationyear":1883,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":754270,
         "books":[
-            {
-                "bookid":1358857,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":756616,
         "books":[
-            {
-                "bookid":1364188,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -499,7 +411,9 @@
             {
                 "bookid":1367902,
                 "publicationyear":2010,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -522,7 +436,9 @@
             {
                 "bookid":631997,
                 "publicationyear":1992,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -532,7 +448,9 @@
             {
                 "bookid":499451,
                 "publicationyear":2008,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -540,14 +458,11 @@
         "authorId":347225,
         "books":[
             {
-                "bookid":591239,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
                 "bookid":1255426,
                 "publicationyear":2016,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -557,18 +472,16 @@
             {
                 "bookid":908958,
                 "publicationyear":1976,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":78859,
         "books":[
-            {
-                "bookid":182560,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -577,7 +490,9 @@
             {
                 "bookid":1107733,
                 "publicationyear":2009,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -587,18 +502,16 @@
             {
                 "bookid":908958,
                 "publicationyear":1976,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":734614,
         "books":[
-            {
-                "bookid":1308671,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -607,7 +520,9 @@
             {
                 "bookid":908960,
                 "publicationyear":2017,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -617,28 +532,22 @@
             {
                 "bookid":908962,
                 "publicationyear":1965,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":734615,
         "books":[
-            {
-                "bookid":1308672,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":653492,
         "books":[
-            {
-                "bookid":1107718,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -650,11 +559,7 @@
     {
         "authorId":731882,
         "books":[
-            {
-                "bookid":1300248,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -663,7 +568,9 @@
             {
                 "bookid":1303188,
                 "publicationyear":2014,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -676,11 +583,7 @@
     {
         "authorId":205601,
         "books":[
-            {
-                "bookid":325382,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -689,7 +592,9 @@
             {
                 "bookid":1333748,
                 "publicationyear":1958,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -699,7 +604,9 @@
             {
                 "bookid":1378127,
                 "publicationyear":2008,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -728,7 +635,9 @@
             {
                 "bookid":908964,
                 "publicationyear":2015,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -738,7 +647,9 @@
             {
                 "bookid":1648270,
                 "publicationyear":2024,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -752,65 +663,81 @@
         "authorId":365141,
         "books":[
             {
-                "bookid":847364,
-                "publicationyear":1855,
-                "genres":null
-            },
-            {
                 "bookid":1042467,
                 "publicationyear":1865,
-                "genres":null
-            },
-            {
-                "bookid":1042469,
-                "publicationyear":1863,
-                "genres":null
-            },
-            {
-                "bookid":822371,
-                "publicationyear":1900,
-                "genres":null
-            },
-            {
-                "bookid":965460,
-                "publicationyear":1864,
-                "genres":null
-            },
-            {
-                "bookid":883767,
-                "publicationyear":1869,
-                "genres":null
-            },
-            {
-                "bookid":620020,
-                "publicationyear":1870,
-                "genres":null
+                "genres":[
+
+                ]
             },
             {
                 "bookid":1044303,
                 "publicationyear":1909,
-                "genres":null
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":822371,
+                "publicationyear":1900,
+                "genres":[
+
+                ]
             },
             {
                 "bookid":1044301,
                 "publicationyear":1869,
-                "genres":null
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":965460,
+                "publicationyear":1864,
+                "genres":[
+
+                ]
             },
             {
                 "bookid":975822,
                 "publicationyear":1864,
-                "genres":null
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":1042469,
+                "publicationyear":1863,
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":883767,
+                "publicationyear":1869,
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":847364,
+                "publicationyear":1855,
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":620020,
+                "publicationyear":1870,
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":119514,
         "books":[
-            {
-                "bookid":379377,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -819,22 +746,30 @@
             {
                 "bookid":899322,
                 "publicationyear":2012,
-                "genres":null
-            },
-            {
-                "bookid":773507,
-                "publicationyear":2020,
-                "genres":null
-            },
-            {
-                "bookid":145140,
-                "publicationyear":2008,
-                "genres":null
+                "genres":[
+
+                ]
             },
             {
                 "bookid":1042979,
                 "publicationyear":2000,
-                "genres":null
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":773507,
+                "publicationyear":2020,
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":145140,
+                "publicationyear":2008,
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -842,30 +777,18 @@
         "authorId":205651,
         "books":[
             {
-                "bookid":199656,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
                 "bookid":1294110,
                 "publicationyear":1988,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":205670,
         "books":[
-            {
-                "bookid":62935,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":250498,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -880,17 +803,16 @@
             {
                 "bookid":1095882,
                 "publicationyear":1991,
-                "genres":null
-            },
-            {
-                "bookid":731768,
-                "publicationyear":2000,
-                "genres":null
+                "genres":[
+
+                ]
             },
             {
                 "bookid":499451,
                 "publicationyear":2008,
-                "genres":null
+                "genres":[
+
+                ]
             },
             {
                 "bookid":1461019,
@@ -898,6 +820,13 @@
                 "genres":[
                     "History",
                     "Biography"
+                ]
+            },
+            {
+                "bookid":731768,
+                "publicationyear":2000,
+                "genres":[
+
                 ]
             }
         ]
@@ -908,7 +837,9 @@
             {
                 "bookid":544136,
                 "publicationyear":2017,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -918,43 +849,28 @@
             {
                 "bookid":1507580,
                 "publicationyear":2007,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":734616,
         "books":[
-            {
-                "bookid":1308675,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":653497,
         "books":[
-            {
-                "bookid":1107731,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1281884,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":78916,
         "books":[
-            {
-                "bookid":47222,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -966,22 +882,7 @@
     {
         "authorId":653493,
         "books":[
-            {
-                "bookid":1107719,
-                "publicationyear":null,
-                "genres":[
-                    "Fiction",
-                    "Dystopian",
-                    "Thriller",
-                    "Crime",
-                    "Punishment"
-                ]
-            },
-            {
-                "bookid":1299509,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -993,61 +894,25 @@
     {
         "authorId":731891,
         "books":[
-            {
-                "bookid":1300267,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":159982,
         "books":[
-            {
-                "bookid":177395,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":706259,
         "books":[
-            {
-                "bookid":1238379,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1238282,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":763010,
         "books":[
-            {
-                "bookid":1376560,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1377123,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1377578,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
-                "bookid":1377543,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -1059,30 +924,25 @@
     {
         "authorId":159981,
         "books":[
-            {
-                "bookid":110544,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":538034,
         "books":[
             {
-                "bookid":1188464,
-                "publicationyear":2015,
-                "genres":null
-            },
-            {
                 "bookid":908968,
                 "publicationyear":1987,
-                "genres":null
+                "genres":[
+
+                ]
             },
             {
-                "bookid":1356552,
-                "publicationyear":null,
-                "genres":null
+                "bookid":1188464,
+                "publicationyear":2015,
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -1092,7 +952,9 @@
             {
                 "bookid":908965,
                 "publicationyear":2001,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -1102,12 +964,9 @@
             {
                 "bookid":647466,
                 "publicationyear":2010,
-                "genres":null
-            },
-            {
-                "bookid":308506,
-                "publicationyear":null,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
@@ -1121,25 +980,18 @@
         "authorId":205632,
         "books":[
             {
-                "bookid":134321,
-                "publicationyear":null,
-                "genres":null
-            },
-            {
                 "bookid":658407,
                 "publicationyear":2004,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":205654,
         "books":[
-            {
-                "bookid":154676,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -1148,28 +1000,22 @@
             {
                 "bookid":908965,
                 "publicationyear":2001,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     },
     {
         "authorId":208147,
         "books":[
-            {
-                "bookid":217542,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":208152,
         "books":[
-            {
-                "bookid":298681,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
@@ -1202,30 +1048,32 @@
     {
         "authorId":734617,
         "books":[
-            {
-                "bookid":1308676,
-                "publicationyear":null,
-                "genres":null
-            }
+
         ]
     },
     {
         "authorId":289791,
         "books":[
             {
-                "bookid":499454,
-                "publicationyear":2018,
-                "genres":null
-            },
-            {
                 "bookid":1365066,
                 "publicationyear":1981,
-                "genres":null
+                "genres":[
+
+                ]
+            },
+            {
+                "bookid":499454,
+                "publicationyear":2018,
+                "genres":[
+
+                ]
             },
             {
                 "bookid":807300,
                 "publicationyear":2006,
-                "genres":null
+                "genres":[
+
+                ]
             }
         ]
     }
