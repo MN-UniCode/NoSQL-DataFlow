@@ -23,6 +23,7 @@ services:
       - CASSANDRA_DC=my-datacenter-1
     volumes:
       - cassandra-node-1:/var/lib/cassandra:rw
+      - ./../CSV:/csv:ro
     restart:
       on-failure
     healthcheck:
@@ -52,6 +53,7 @@ services:
         condition: service_healthy
     volumes:
       - cassandra-node-2:/var/lib/cassandra:rw
+      - ./../CSV:/csv:ro
     restart:
       on-failure
     healthcheck:
@@ -81,6 +83,7 @@ services:
         condition: service_healthy
     volumes:
       - cassandra-node-3:/var/lib/cassandra:rw
+      - ./../CSV:/csv:ro
     restart:
       on-failure
     healthcheck:

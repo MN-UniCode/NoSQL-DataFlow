@@ -1,6 +1,5 @@
 import time
 import requests
-import pandas as pd
 import os
 from config.config import API_KEY
 
@@ -146,6 +145,6 @@ def create_file(df, filename):
         full_path = os.path.join(os.getcwd(), RELATIVE_PATH[i], filename[i])
         os.makedirs(os.path.dirname(full_path), exist_ok=True)
         if i == CSV:
-            df.to_csv(full_path, index=False)
+            df.to_csv(full_path, index=False, na_rep= None)
         else:
              df.to_json(full_path, orient='records', indent=4, index=False)

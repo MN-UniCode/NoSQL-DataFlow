@@ -36,10 +36,10 @@ def generate_books_file():
             if user_book_data:
                 for entry in user_book_data:
                     review_data = entry.get("user_book", [])
-                    if review_data.get("review", None) or review_data.get("rating", None):
+                    if review_data.get("rating", None) and review_data.get("rating", None) != 'null' and review_data.get("rating", None) is not None:
                         new = {
-                            "reviewiId" : review_data.get("id", None),
-                            "score" : review_data.get("rating", None),
+                            "reviewId" : review_data.get("id", None),
+                            "score" : int(review_data.get("rating", None)),
                             "comment" : review_data.get("review", None),
                             "date" : review_data.get("date_added", None),
                             "userId" : review_data.get("user_id", None)
