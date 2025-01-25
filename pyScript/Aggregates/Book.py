@@ -1,7 +1,5 @@
 import pandas as pd
-from Manager.API_Manager import retrieve_books, create_file
-from Manager.API_Manager import retrieve_publisher_by_book
-from Manager.API_Manager import retrieve_book_reviews
+import pyScript.Manager.API_Manager as Manager
 
 # Create the pandas dataframe
 book_data = {
@@ -17,7 +15,7 @@ book_data = {
 df = pd.DataFrame(book_data)
 
 def generate_books_file():
-    data = retrieve_books()
+    data = Manager.retrieve_books()
         
     # Extract the books informations
     books = data.get("data", {}).get("books", [])
@@ -32,7 +30,7 @@ def generate_books_file():
 
         # Manage reviews (nested values)
         reviews = []
-        data_rev = retrieve_book_reviews(id)
+        data_rev = Manager.retrieve_book_reviews(id)
         if data_rev:
             user_book_data = data_rev.get("data", {}).get("user_book_reads", [])
             if user_book_data:
@@ -50,8 +48,8 @@ def generate_books_file():
         else:
             print(f"No reviews found for bookId: {id}")
         
-        #TODO: find the correct publisherId
-        data = retrieve_publisher_by_book(id)
+        # Find the correct publisherId
+        data = Manager.retrieve_publisher_by_book(id)
         pubId = None
         if data:
             editions = data.get("data", {}).get("editions", [])
@@ -64,4 +62,4 @@ def generate_books_file():
         df.loc[len(df)] = [id, title, release_year, description, "English", reviews, pubId]
         # print(f"recommendations: {recommendations}")
 
-    create_file(df, ["books.csv", "books.json"])
+    Manager.create_file(df, ["books.csv", "books.json"])

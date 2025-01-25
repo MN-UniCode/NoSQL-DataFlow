@@ -1,5 +1,5 @@
 import pandas as pd
-from Manager.API_Manager import retrieve_users, create_file
+import pyScript.Manager.API_Manager as Manager
 
 # Create the pandas dataframe
 user_data = {
@@ -10,7 +10,7 @@ user_data = {
 df = pd.DataFrame(user_data)
 
 def generate_users_file():
-    data = retrieve_users()
+    data = Manager.retrieve_users()
 
     # Extract the users informations
     users = data.get("data", {}).get("users", [])
@@ -50,4 +50,4 @@ def generate_users_file():
 
         df.loc[len(df)] = [userId, books]
 
-        create_file(df, ["users.csv", "users.json"])
+        Manager.create_file(df, ["users.csv", "users.json"])

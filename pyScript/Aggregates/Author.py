@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-import Manager.API_Manager as Manager
+import pyScript.Manager.API_Manager as Manager
 
 def generate_author_csv():
 

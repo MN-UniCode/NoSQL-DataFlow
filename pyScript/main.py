@@ -1,6 +1,6 @@
-import Aggregates.Author as Author
-import Aggregates.Book as Book
-import Aggregates.User as User
+import pyScript.Aggregates.Author as Author
+import pyScript.Aggregates.Book as Book
+import pyScript.Aggregates.User as User
 
 select = -1
 while select < 0 or select > 2:
