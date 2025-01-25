@@ -39,10 +39,7 @@ def generate_users_file():
                 genres = []
                 if genre_tags:
                     for genre in genre_tags:
-                        new = {
-                            "name" : genre.get("tag", None)
-                        }
-                        genres.append(new)
+                        genres.append(genre.get("tag", None))
                 book_info["genres"] = genres
 
                 # Create the books object
