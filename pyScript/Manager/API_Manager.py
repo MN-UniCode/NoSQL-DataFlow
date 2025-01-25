@@ -134,7 +134,6 @@ def retrieve_book_reviews(book_id):
 
 def retrive_author():
     return make_request_with_retries(query_author)
-    
 
 def retrieve_book_author(author_id):
     return make_request_with_retries(query_book_author, variables={"author_id": author_id})

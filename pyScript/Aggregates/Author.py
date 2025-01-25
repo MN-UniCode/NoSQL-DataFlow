@@ -7,7 +7,7 @@ def generate_author_csv():
     # Define the dataframe
     dataFrame = {
         "authorId" : None,
-        "Books" : []
+        "books" : []
     }
 
     df_authors =pd.DataFrame(dataFrame)
@@ -43,7 +43,7 @@ def generate_author_csv():
             else:
                 genre = None
             
-            books_list_for_author.append({"bookId" : bookId, "publicationYear" : publicationYear, "genre" : genre})  
+            books_list_for_author.append({"bookid" : bookId, "publicationyear" : publicationYear, "genres" : genre})  
   
         # Add to the dataframe the new row
         df_authors.loc[len(df_authors)] = [id, books_list_for_author]
