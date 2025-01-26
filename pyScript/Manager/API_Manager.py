@@ -25,8 +25,11 @@ query MyQuery {
 """
 
 query_users = """
-query MyQuery {
-  users(where: {user_books: {book: {release_year: {_is_null: false}}}}) {
+query MyQuery($offset: Int!) {
+  users(
+    where: {user_books: {book: {release_year: {_is_null: false}}}}
+    offset: $offset
+  ) {
     id
     user_books(limit: 4) {
       book_id
@@ -66,11 +69,12 @@ query MyQuery($book_id: Int!) {
 """
 
 query_author = """
-query MyQuery {
-  authors {
+query MyQuery($offset: Int!) {
+  authors(where: {books_count: {_gt: 2}}, offset: $offset) {
     id
   }
 }
+
 """
 
 query_book_author = """
@@ -123,8 +127,8 @@ def retrieve_books():
     return make_request_with_retries(query_books)
 
 # Sending the request for users with retry logic
-def retrieve_users():
-    return make_request_with_retries(query_users)
+def retrieve_users(offset):
+    return make_request_with_retries(query_users, variables={"offset": offset})
 
 # Sending the request for publishers with retry logic
 def retrieve_publisher_by_book(book_id):
@@ -134,8 +138,8 @@ def retrieve_publisher_by_book(book_id):
 def retrieve_book_reviews(book_id):
     return make_request_with_retries(query_book_reviews, variables={"book_id": book_id})
 
-def retrive_author():
-    return make_request_with_retries(query_author)
+def retrive_author(offset):
+    return make_request_with_retries(query_author, variables={"offset": offset})
 
 def retrieve_book_author(author_id):
     return make_request_with_retries(query_book_author, variables={"author_id": author_id})

@@ -13,39 +13,50 @@ def generate_author_csv():
     df_authors =pd.DataFrame(dataFrame)
 
     # Init of author id list
-    authorId_list = []
+    
+    for i in range(0, 1000, 100):
+        authorId_list = []
+        # Get all the authors 
+        data = Manager.retrive_author(i)
 
-    # Get all the authors 
-    data = Manager.retrive_author()
-    authors = data.get("data", {}).get("authors", [])
+        if data is None:
+            i -= 100
+            print("sono bellissimo")
+            continue
 
-    # Save the authors id in a list
-    for author in authors:
-        authorId_list.append(author["id"])
+        authors = data.get("data", {}).get("authors", [])
 
-    # For each author, find all the books that he wrote
-    for id in authorId_list:
-        author_book = Manager.retrieve_book_author(id)
-        books = author_book.get("data", {}).get("books")
-        books_list_for_author = []
-        for book in books:
-            # Extract book id
-            bookId = book.get("id")
-            # Extract the publication year
-            publicationYear = book.get("release_year", None)
-            # Extract the genre
-            cached_tags = book.get("cached_tags", None)
-            tag_list = cached_tags.get("Genre", None)
-            genre = []
-            if (tag_list):
-                for element in tag_list:
-                    genre.append(element["tag"])
-            else:
+        # Save the authors id in a list
+        for author in authors:
+            authorId_list.append(author["id"])
+
+        j=0
+        # For each author, find all the books that he wrote
+        for id in authorId_list:
+            author_book = Manager.retrieve_book_author(id)
+            books = author_book.get("data", {}).get("books")
+            books_list_for_author = []
+            for book in books:
+                # Extract book id
+                bookId = book.get("id")
+                # Extract the publication year
+                publicationYear = book.get("release_year", None)
+                # Extract the genre
+                cached_tags = book.get("cached_tags", None)
+                tag_list = cached_tags.get("Genre", None)
                 genre = []
-            
-            books_list_for_author.append({"bookid" : bookId, "publicationyear" : publicationYear, "genres" : genre})  
-  
-        # Add to the dataframe the new row
-        df_authors.loc[len(df_authors)] = [id, books_list_for_author]
+                if (tag_list):
+                    for element in tag_list:
+                        genre.append(element["tag"])
+                else:
+                    genre = []
+                
+                books_list_for_author.append({"bookid" : bookId, "publicationyear" : publicationYear, "genres" : genre})  
+    
+            # Add to the dataframe the new row
+            df_authors.loc[len(df_authors)] = [id, books_list_for_author]
+            print(str(j) + " added")
+            j +=1
+        print(str(i) + " done")
         
     Manager.create_file(df_authors,["authors.csv", "authors.json"])
