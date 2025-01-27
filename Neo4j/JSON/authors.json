@@ -1,0 +1,68 @@
+[
+    {
+        "authorId":542059,
+        "name":"John Lombardo",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":197326,
+        "name":"Ben Lerner",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":154441,
+        "name":"Stephen King",
+        "birthdate":"1947-09-21",
+        "nationality":null
+    },
+    {
+        "authorId":154441,
+        "name":"Stephen King",
+        "birthdate":"1947-09-21",
+        "nationality":null
+    },
+    {
+        "authorId":333618,
+        "name":"Joseph Lewis",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":372511,
+        "name":"Marin M\u0103laicu-Hondrari",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":153319,
+        "name":"Michael W. Apple",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":256199,
+        "name":"A.E. van Vogt",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":333202,
+        "name":"Jessica Baum",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":149110,
+        "name":"Antoine de Saint-Exup\u00e9ry",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":97569,
+        "name":"Marjorie M. Liu",
+        "birthdate":null,
+        "nationality":null
+    }
+]

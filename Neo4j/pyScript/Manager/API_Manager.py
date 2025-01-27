@@ -1,6 +1,8 @@
 import time
 import requests
 import os
+import re
+import pandas as pd
 from config.config import API_KEY
 
 url = "https://api.hardcover.app/v1/graphql"
@@ -19,13 +21,32 @@ headers = {
     "Authorization": API_KEY
 }
 
+book_data = {
+    "bookId": None,
+    "title": None,
+    "publicationYear": None,
+    "description": None,
+    "language": None,
+    "genres" : [],
+    "authors" : []
+}
+
 query_books = """
 query MyQuery {
-  books(limit: 10, offset: 50, where: {description: {_is_null: false}}) {
+  books(limit: 10, offset: 100, where: {description: {_is_null: false}}) {
     id
     release_year
     title
     description
+    cached_tags
+    contributions {
+      author {
+        born_date
+        id
+        name
+        location
+      }
+    }
   }
 }
 """
@@ -65,24 +86,54 @@ def make_request_with_retries(query, variables=None, max_retries=5):
 
 # Sending the request for books with retry logic
 def retrieve_books():
-    return make_request_with_retries(query_books)
+    data = make_request_with_retries(query_books)
+    
+    df = pd.DataFrame(book_data)
+    
+    if data:
+        books = data.get("data", {}).get("books")
+        
+        if books:
+            for book in books:
 
-def retrieve_users():
-    return make_request_with_retries(query_books)
+                author_data = {
+                    "authorId": None,
+                    "name": None,
+                    "birthdate": None,
+                    "nationality": None
+                }
 
-# Sending the request for publishers with retry logic
-def retrieve_publisher():
-    return make_request_with_retries(query_books)
+                author_list = []
+                genres_list = []
+                id = book.get("id", None)
+                if book.get("description", None) is not None:
+                    description = re.sub(r'[^a-zA-Z0-9 ]', '', book.get("description"))
+                else:
+                    description = book.get("description", None)
+                release_year = book.get("release_year", None)
+                title = book.get("title", None)
 
-# Sending the request for book reviews with retry logic
-def retrieve_genre():
-    return make_request_with_retries(query_books)
+                contibutions = book.get("contributions", None)
+                if contibutions:
+                    for contribution in contibutions:
+                        author = contribution.get("author", None)
+                        if author:
+                            author_data["authorId"] = author.get("id", None)
+                            author_data["name"] = author.get("name", None)
+                            author_data["nationality"] = author.get("location", None)
+                            author_data["birthdate"] = author.get("born_date", None)
+                            author_list.append(author_data)
+                
+                cached_tags = book.get("cached_tags")
+                if cached_tags:
+                    genres = cached_tags.get("Genre")
+                    for genre in genres:
+                        if(genre.get("tag")):
+                            genres_list.append(genre.get("tag"))
+                df.loc[len(df)] = [id, title, release_year, description, "English",genres_list, author_list]
 
-def retrive_author():
-    return make_request_with_retries(query_books)
+    return df
 
-def retrieve_review():
-    return make_request_with_retries(query_books)
 
 def create_file(df, filename):
 
