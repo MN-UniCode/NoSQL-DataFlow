@@ -1,6 +1,6 @@
-import pyScript.Aggregates.Author as Author
-import pyScript.Aggregates.Book as Book
-import pyScript.Aggregates.User as User
+import Cassandra.pyScript.Aggregates.Author as Author
+import Cassandra.pyScript.Aggregates.Book as Book
+import Cassandra.pyScript.Aggregates.User as User
 
 select = -1
 while select < 0 or select > 2:

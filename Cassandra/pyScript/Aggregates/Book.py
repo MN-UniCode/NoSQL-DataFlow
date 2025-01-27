@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-import pyScript.Manager.API_Manager as Manager
+import Cassandra.pyScript.Manager.API_Manager as Manager
 
 # Create the pandas dataframe
 book_data = {

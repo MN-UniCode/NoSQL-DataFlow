@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-import pyScript.Manager.API_Manager as Manager
+import Cassandra.pyScript.Manager.API_Manager as Manager
 
 def generate_author_csv():
 
@@ -21,7 +21,6 @@ def generate_author_csv():
 
         if data is None:
             i -= 100
-            print("sono bellissimo")
             continue
 
         authors = data.get("data", {}).get("authors", [])
@@ -30,7 +29,6 @@ def generate_author_csv():
         for author in authors:
             authorId_list.append(author["id"])
 
-        j=0
         # For each author, find all the books that he wrote
         for id in authorId_list:
             author_book = Manager.retrieve_book_author(id)
@@ -55,8 +53,5 @@ def generate_author_csv():
     
             # Add to the dataframe the new row
             df_authors.loc[len(df_authors)] = [id, books_list_for_author]
-            print(str(j) + " added")
-            j +=1
-        print(str(i) + " done")
         
     Manager.create_file(df_authors,["authors.csv", "authors.json"])
