@@ -1,27 +1,17 @@
 [
     {
-        "publisherId":135,
-        "name":"Penguin Group",
+        "publisherId":11213,
+        "name":"Canterbury University Press",
         "country":"USA"
     },
     {
-        "publisherId":135,
-        "name":"Penguin Group",
-        "country":"USA"
+        "publisherId":null,
+        "name":null,
+        "country":null
     },
     {
-        "publisherId":175,
-        "name":"Harry N. Abrams",
-        "country":"USA"
-    },
-    {
-        "publisherId":2290,
-        "name":"Psychology Press",
-        "country":"USA"
-    },
-    {
-        "publisherId":30002,
-        "name":"Graphic Novels",
+        "publisherId":13544,
+        "name":"Brooklyn Botanic Garden",
         "country":"USA"
     },
     {
@@ -40,13 +30,23 @@
         "country":null
     },
     {
+        "publisherId":244,
+        "name":"Fawcett",
+        "country":"USA"
+    },
+    {
+        "publisherId":12809,
+        "name":"Lotus Press",
+        "country":"USA"
+    },
+    {
         "publisherId":null,
         "name":null,
         "country":null
     },
     {
-        "publisherId":7240,
-        "name":"De Bezige Bij",
+        "publisherId":76289,
+        "name":"Elizabeth O'Roark",
         "country":"USA"
     }
 ]

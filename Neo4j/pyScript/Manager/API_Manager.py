@@ -204,7 +204,7 @@ def retrieve_books():
                     user_data["name"] = user.get("name", None)
                     user_data["nationality"] = user.get("location", None)
                     user_list.append(user_data)
-                #print(review_list)
+                
                 df.loc[len(df)] = [id, title, release_year, description, "English", genres_list, author_list, publisher_data, review_list, user_list]      
     return df
 

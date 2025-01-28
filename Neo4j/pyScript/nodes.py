@@ -1,120 +1,91 @@
 import pandas as pd
 import Neo4j.pyScript.Manager.API_Manager as Manager
 
-# Dataframes
+class GraphDataGenerator:
+    def __init__(self):
+        # Private DataFrames
+        self.__df_author = self.__initialize_dataframe({
+            "authorId": None,
+            "name": None,
+            "birthdate": None,
+            "nationality": None
+        })
 
-# Book dataframe
-book_data = {
-    "bookId": None,
-    "title": None,
-    "publicationYear": None,
-    "description": None,
-    "language": None
-}
+        self.__genre_data = {'name': []}
 
-# Author dataframe
-author_data = {
-    "authorId": None,
-    "name": None,
-    "birthdate": None,
-    "nationality": None
-}
+        self.__df_publisher = self.__initialize_dataframe({
+            "publisherId": None,
+            "name": None,
+            "country": None
+        })
 
-df_author =pd.DataFrame(author_data, index=[0])
-df_author.drop(0, inplace=True)
+        self.__df_review = self.__initialize_dataframe({
+            "reviewId": None,
+            "score": None,
+            "comment": None,
+            "date": None
+        })
 
-# Genre dataframe
-genre_data ={ 'name' : [] }
+        self.__df_user = self.__initialize_dataframe({
+            "userId": None,
+            "name": None,
+            "birthdate": None,
+            "nationality": None
+        })
 
-# Publisher dataframe
-publisher_data = {
-    "publisherId": None,
-    "name": None,
-    "country": None
-}
+    def __initialize_dataframe(self, data):
+        df = pd.DataFrame(data, index=[0])
+        df.drop(0, inplace=True)
+        return df
 
-df_publisher = pd.DataFrame(publisher_data, index=[0])
-df_publisher.drop(0, inplace=True)
+    def __generate_books_file(self, books_df):
+        df = books_df.drop(columns=['genres', 'authors'])
+        Manager.create_file(df, ["books.csv", "books.json"])
 
-# Review dataframe
-review_data = {
-    "reviewId": None,
-    "score": None,
-    "comment": None,
-    "date": None
-}
+    def __generate_author_file(self, books_df):
+        for authors in books_df['authors']:
+            for author in authors:
+                self.__df_author.loc[len(self.__df_author)] = [
+                    author['authorId'], author['name'], author['birthdate'], author['nationality']
+                ]
+        Manager.create_file(self.__df_author, ["authors.csv", "authors.json"])
 
-df_review = pd.DataFrame(review_data, index=[0])
-df_review.drop(0, inplace=True)
+    def __generate_genre_file(self, books_df):
+        for genres in books_df['genres']:
+            for genre in genres:
+                self.__genre_data['name'].append(genre)
 
-# User dataframe
-user_data = {
-    "userId": None,
-    "name": None,
-    "birthdate": None,
-    "nationality": None
-}
+        df = pd.DataFrame(self.__genre_data)
+        Manager.create_file(df, ["genres.csv", "genres.json"])
 
-df_user = pd.DataFrame(user_data, index=[0])
-df_user.drop(0, inplace=True)
+    def __generate_publisher_file(self, books_df):
+        for publishers in books_df['publisher']:
+            self.__df_publisher.loc[len(self.__df_publisher)] = [
+                publishers['publisherId'], publishers['name'], publishers['country']
+            ]
+        Manager.create_file(self.__df_publisher, ["publishers.csv", "publishers.json"])
 
-# Generate files functions
+    def __generate_review_file(self, books_df):
+        for reviews in books_df['reviews']:
+            for review in reviews:
+                self.__df_review.loc[len(self.__df_review)] = [
+                    review['reviewId'], review['score'], review['comment'], review['date']
+                ]
+        Manager.create_file(self.__df_review, ["reviews.csv", "reviews.json"])
 
-# Book function
-def generate_books_file(books_df):
-    df = books_df.drop(columns=['genres', 'authors'])
+    def __generate_user_file(self, books_df):
+        for users in books_df['users']:
+            for user in users:
+                self.__df_user.loc[len(self.__df_user)] = [
+                    user['userId'], user['name'], user['birthdate'], user['nationality']
+                ]
+        Manager.create_file(self.__df_user, ["users.csv", "users.json"])
 
-    Manager.create_file(df, ["books.csv", "books.json"])
-
-# Author function
-def generate_author_file(books_df):
-    for authors in books_df['authors']:
-        for author in authors:
-            df_author.loc[len(df_author)] = [author['authorId'], author['name'], author['birthdate'], author['nationality']]
-
-    Manager.create_file(df_author, ["authors.csv", "authors.json"])
-
-# Genre function
-def generate_genre_file(books_df):
-    books_df['genres'] = books_df['genres']
-
-    for genres in books_df['genres']:
-        for genre in genres:
-            genre_data['name'].append(genre)
-
-    df = pd.DataFrame(genre_data)
-    Manager.create_file(df, ["genres.csv", "genres.json"])
-
-# Publisher function
-def generate_publisher_file(books_df):
-    for publishers in books_df['publisher']:
-        # print(publishers)
-        df_publisher.loc[len(df_publisher)] = [publishers['publisherId'], publishers['name'], publishers['country']]
-
-    Manager.create_file(df_publisher, ["publishers.csv", "publishers.json"])
-
-# Review function
-def generate_review_file(books_df):
-    for reviews in books_df['reviews']:
-        for review in reviews:
-            # print(review)
-            df_review.loc[len(df_review)] = [review['reviewId'], review['score'], review['comment'], review['date']]
-
-    Manager.create_file(df_review, ["reviews.csv", "reviews.json"])
-
-# User function
-def generate_user_file(books_df):
-    for users in books_df['users']:
-        for user in users:
-            df_user.loc[len(df_user)] = [user['userId'], user['name'], user['birthdate'], user['nationality']]
-
-    Manager.create_file(df_user, ["users.csv", "users.json"])
-
-# Generate all nodes function
-def generate_all_nodes(books_df):
-    generate_books_file(books_df)
-    generate_author_file(books_df)
-    generate_genre_file(books_df)
-    generate_publisher_file(books_df)
-    generate_review_file(books_df) 
-    generate_user_file(books_df)
+    # Public method
+    def generate_all_nodes(self, books_df):
+        self.__generate_books_file(books_df)
+        self.__generate_author_file(books_df)
+        self.__generate_genre_file(books_df)
+        self.__generate_publisher_file(books_df)
+        self.__generate_review_file(books_df)
+        self.__generate_user_file(books_df)

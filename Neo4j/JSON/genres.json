@@ -1,32 +1,23 @@
 [
     {
-        "name":"Fiction"
+        "name":"Gardening"
     },
     {
-        "name":"War"
-    },
-    {
-        "name":"Biography"
-    },
-    {
-        "name":"Biography & Autobiography"
-    },
-    {
-        "name":"History"
-    },
-    {
-        "name":"Fantasy"
-    },
-    {
-        "name":"Young Adult"
-    },
-    {
-        "name":"Comics"
-    },
-    {
-        "name":"Farms"
+        "name":"Performing Arts"
     },
     {
         "name":"Fiction"
+    },
+    {
+        "name":"Health & Fitness"
+    },
+    {
+        "name":"LGBTQ"
+    },
+    {
+        "name":"Fiction"
+    },
+    {
+        "name":"Romance"
     }
 ]
