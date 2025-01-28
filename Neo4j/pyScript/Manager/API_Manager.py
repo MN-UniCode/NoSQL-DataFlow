@@ -28,7 +28,10 @@ book_data = {
     "description": None,
     "language": None,
     "genres" : [],
-    "authors" : []
+    "authors" : [],
+    "publisher": [],
+    "reviews": [],
+    "users": []
 }
 
 
@@ -47,6 +50,23 @@ query MyQuery {
         name
         location
       }
+    }
+    editions {
+      publisher {
+        id
+        name
+      }
+    }
+    user_books {
+        user {
+            id
+            location
+            name
+        }
+        review
+        rating
+        id
+        date_added
     }
   }
 }
@@ -96,6 +116,7 @@ def retrieve_books():
         if books:
             for book in books:
 
+                # Data frames
                 author_data = {
                     "authorId": None,
                     "name": None,
@@ -103,8 +124,34 @@ def retrieve_books():
                     "nationality": None
                 }
 
+                publisher_data = {
+                    "publisherId": None,
+                    "name": None,
+                    "country": None
+                }
+
+                review_data = {
+                    "reviewId": None,
+                    "score": None,
+                    "comment": None,
+                    "date": None
+                }
+
+                user_data = {
+                    "userId": None,
+                    "name": None,
+                    "birthdate": None,
+                    "nationality": None
+                }
+
+                # Lists
                 author_list = []
                 genres_list = []
+                publisher_list = []
+                review_list = []
+                user_list = []
+
+                # Book
                 id = book.get("id", None)
                 if book.get("description", None) is not None:
                     description = re.sub(r'[^a-zA-Z0-9 ]', '', book.get("description"))
@@ -113,6 +160,7 @@ def retrieve_books():
                 release_year = book.get("release_year", None)
                 title = book.get("title", None)
 
+                # Author
                 contibutions = book.get("contributions", None)
                 if contibutions:
                     for contribution in contibutions:
@@ -124,14 +172,42 @@ def retrieve_books():
                             author_data["birthdate"] = author.get("born_date", None)
                             author_list.append(author_data)
                 
+                # Genre
                 cached_tags = book.get("cached_tags")
                 if cached_tags:
                     genres = cached_tags.get("Genre")
                     for genre in genres:
                         if(genre.get("tag")):
                             genres_list.append(genre.get("tag"))
-                df.loc[len(df)] = [id, title, release_year, description, "English",genres_list, author_list]
                 
+                # Publisher
+                editions = book.get("editions", None)
+                for edition in editions:
+                    publisher = edition.get("publisher", None)
+                    if publisher:
+                        publisher_data["publisherId"] = publisher.get("id", None)
+                        publisher_data["name"] = publisher.get("name", None)
+                        publisher_data["country"] = "USA"
+                        publisher_list.append(publisher_data)
+
+                # Review
+                user_books = book.get("user_books", None)
+                for user_book in user_books:
+                    review_data["reviewId"] = user_book.get("id", None)
+                    review_data["score"] = user_book.get("rating", None)
+                    review_data["comment"] = user_book.get("review", None)
+                    review_data["date"] = user_book.get("date_added", None)
+                    print(review_data)
+                    review_list.append(review_data)
+
+                    # User
+                    user = user_book.get("user", None)
+                    user_data["userId"] = user.get("id", None)
+                    user_data["name"] = user.get("name", None)
+                    user_data["nationality"] = user.get("location", None)
+                    user_list.append(user_data)
+                
+                df.loc[len(df)] = [id, title, release_year, description, "English", genres_list, author_list, publisher_data, review_list, user_list]      
     return df
 
 
