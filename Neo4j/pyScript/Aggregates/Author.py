@@ -12,9 +12,7 @@ author_data = {
 df =pd.DataFrame(author_data, index=[0])
 df.drop(0, inplace=True)
 
-def generate_author_file():
-    
-    books_df = Manager.retrieve_books()
+def generate_author_file(books_df):
     books_df.drop(columns=['genres', 'bookId', 'title', 'publicationYear', 'language', 'description'], inplace=True)
     for authors in books_df['authors']:
         for author in authors:

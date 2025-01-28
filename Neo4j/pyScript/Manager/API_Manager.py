@@ -31,6 +31,7 @@ book_data = {
     "authors" : []
 }
 
+
 query_books = """
 query MyQuery {
   books(limit: 10, offset: 100, where: {description: {_is_null: false}}) {
@@ -87,7 +88,6 @@ def make_request_with_retries(query, variables=None, max_retries=5):
 # Sending the request for books with retry logic
 def retrieve_books():
     data = make_request_with_retries(query_books)
-    
     df = pd.DataFrame(book_data)
     
     if data:
@@ -131,7 +131,7 @@ def retrieve_books():
                         if(genre.get("tag")):
                             genres_list.append(genre.get("tag"))
                 df.loc[len(df)] = [id, title, release_year, description, "English",genres_list, author_list]
-
+                
     return df
 
 

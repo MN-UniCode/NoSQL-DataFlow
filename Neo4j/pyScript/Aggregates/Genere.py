@@ -5,8 +5,7 @@ import Neo4j.pyScript.Manager.API_Manager as Manager
 # Create the pandas dataframe
 genre_data ={ 'name' : [] }
 
-def generate_genre_file():
-    books_df = Manager.retrieve_books()
+def generate_genre_file(books_df):
     books_df['genres'] = books_df['genres']
     
     for genres in books_df['genres']:

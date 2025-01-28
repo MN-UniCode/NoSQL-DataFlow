@@ -1,67 +1,67 @@
 [
     {
-        "authorId":542059,
-        "name":"John Lombardo",
+        "authorId":374462,
+        "name":"Edwin Harrison Cady",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":197326,
-        "name":"Ben Lerner",
+        "authorId":374524,
+        "name":"Gerald Faris",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":154441,
-        "name":"Stephen King",
-        "birthdate":"1947-09-21",
-        "nationality":null
-    },
-    {
-        "authorId":154441,
-        "name":"Stephen King",
-        "birthdate":"1947-09-21",
-        "nationality":null
-    },
-    {
-        "authorId":333618,
-        "name":"Joseph Lewis",
+        "authorId":374524,
+        "name":"Gerald Faris",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":372511,
-        "name":"Marin M\u0103laicu-Hondrari",
+        "authorId":374572,
+        "name":"Ivan Rendall",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":153319,
-        "name":"Michael W. Apple",
+        "authorId":374627,
+        "name":"Joanna Buckley",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":256199,
-        "name":"A.E. van Vogt",
+        "authorId":222251,
+        "name":"Trish Albright",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":333202,
-        "name":"Jessica Baum",
+        "authorId":322171,
+        "name":"SpeedyReads",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":149110,
-        "name":"Antoine de Saint-Exup\u00e9ry",
+        "authorId":374522,
+        "name":"JIM. CRACE",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":97569,
-        "name":"Marjorie M. Liu",
+        "authorId":1020099,
+        "name":"Alistair Mackay",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":228428,
+        "name":"B. J. Novak",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":77805,
+        "name":"Johanna Lindsey",
         "birthdate":null,
         "nationality":null
     }

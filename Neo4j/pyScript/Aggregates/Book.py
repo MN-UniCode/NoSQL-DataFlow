@@ -14,8 +14,7 @@ book_data = {
 df = pd.DataFrame(book_data, index=[0])
 df.drop(0, inplace=True)
 
-def generate_books_file():
-    books_df= Manager.retrieve_books()
+def generate_books_file(books_df):
     df = books_df.drop(columns=['genres', 'authors'])
 
     Manager.create_file(df, ["books.csv", "books.json"])
