@@ -116,34 +116,6 @@ def retrieve_books():
         if books:
             for book in books:
 
-                # Data frames
-                author_data = {
-                    "authorId": None,
-                    "name": None,
-                    "birthdate": None,
-                    "nationality": None
-                }
-
-                publisher_data = {
-                    "publisherId": None,
-                    "name": None,
-                    "country": None
-                }
-
-                review_data = {
-                    "reviewId": None,
-                    "score": None,
-                    "comment": None,
-                    "date": None
-                }
-
-                user_data = {
-                    "userId": None,
-                    "name": None,
-                    "birthdate": None,
-                    "nationality": None
-                }
-
                 # Lists
                 author_list = []
                 genres_list = []
@@ -164,6 +136,13 @@ def retrieve_books():
                 contibutions = book.get("contributions", None)
                 if contibutions:
                     for contribution in contibutions:
+                        author_data = {
+                            "authorId": None,
+                            "name": None,
+                            "birthdate": None,
+                            "nationality": None
+                        }
+                        
                         author = contribution.get("author", None)
                         if author:
                             author_data["authorId"] = author.get("id", None)
@@ -183,6 +162,12 @@ def retrieve_books():
                 # Publisher
                 editions = book.get("editions", None)
                 for edition in editions:
+                    publisher_data = {
+                        "publisherId": None,
+                        "name": None,
+                        "country": None
+                    }
+
                     publisher = edition.get("publisher", None)
                     if publisher:
                         publisher_data["publisherId"] = publisher.get("id", None)
@@ -193,20 +178,33 @@ def retrieve_books():
                 # Review
                 user_books = book.get("user_books", None)
                 for user_book in user_books:
+                    review_data = {
+                        "reviewId": None,
+                        "score": None,
+                        "comment": None,
+                        "date": None
+                    }
+                    
                     review_data["reviewId"] = user_book.get("id", None)
                     review_data["score"] = user_book.get("rating", None)
                     review_data["comment"] = user_book.get("review", None)
                     review_data["date"] = user_book.get("date_added", None)
-                    print(review_data)
                     review_list.append(review_data)
-
+                    
                     # User
+                    user_data = {
+                        "userId": None,
+                        "name": None,
+                        "birthdate": None,
+                        "nationality": None
+                    }
+
                     user = user_book.get("user", None)
                     user_data["userId"] = user.get("id", None)
                     user_data["name"] = user.get("name", None)
                     user_data["nationality"] = user.get("location", None)
                     user_list.append(user_data)
-                
+                #print(review_list)
                 df.loc[len(df)] = [id, title, release_year, description, "English", genres_list, author_list, publisher_data, review_list, user_list]      
     return df
 

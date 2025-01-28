@@ -1,3 +1,17 @@
 [
-
+    {
+        "name":"General"
+    },
+    {
+        "name":"Art"
+    },
+    {
+        "name":"Young Adult"
+    },
+    {
+        "name":"Fiction"
+    },
+    {
+        "name":"Fantasy"
+    }
 ]

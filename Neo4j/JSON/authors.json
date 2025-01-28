@@ -1,67 +1,85 @@
 [
     {
-        "authorId":138431,
-        "name":"Anthony Bourdain",
+        "authorId":590087,
+        "name":"Mariam Girl Women Name Notebook",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":282850,
-        "name":"Milkyway Media",
+        "authorId":528520,
+        "name":"Antonio Bernat Vistarini",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":100818,
-        "name":"Katherine Pancol",
+        "authorId":528521,
+        "name":"John T. Cull",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":180753,
-        "name":"Peter Hoffmann",
+        "authorId":528522,
+        "name":"Edward John Vodoklys",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":381136,
-        "name":"Jan Herrmann",
+        "authorId":89206,
+        "name":"Neville Goddard",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":246736,
-        "name":"G. Bailey",
+        "authorId":983916,
+        "name":"Joseph Shadur",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":272419,
-        "name":"Brent  Adamson",
+        "authorId":983917,
+        "name":"Yehudit Shadur",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":272419,
-        "name":"Brent  Adamson",
+        "authorId":725209,
+        "name":"Beatriz Serrano",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":149442,
-        "name":"Kohei Horikoshi",
+        "authorId":70766,
+        "name":"Karen Fortunati",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":243548,
-        "name":"Auriane Desombre",
+        "authorId":529314,
+        "name":"Stela Manova",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":520803,
-        "name":"Felipe Milanez",
+        "authorId":316834,
+        "name":"Sarah       Adams",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":708926,
+        "name":"Kazushige Abe",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":140269,
+        "name":"Michael Emmerich",
+        "birthdate":null,
+        "nationality":null
+    },
+    {
+        "authorId":123827,
+        "name":"Diana Stewart",
         "birthdate":null,
         "nationality":null
     }

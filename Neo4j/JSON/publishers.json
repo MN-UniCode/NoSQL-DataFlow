@@ -15,14 +15,9 @@
         "country":null
     },
     {
-        "publisherId":null,
-        "name":null,
-        "country":null
-    },
-    {
-        "publisherId":null,
-        "name":null,
-        "country":null
+        "publisherId":6431,
+        "name":"UPNE",
+        "country":"USA"
     },
     {
         "publisherId":null,
@@ -42,6 +37,11 @@
     {
         "publisherId":3,
         "name":"Random House",
+        "country":"USA"
+    },
+    {
+        "publisherId":10945,
+        "name":"Pushkin Press",
         "country":"USA"
     },
     {
