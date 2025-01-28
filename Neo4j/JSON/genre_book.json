@@ -1,0 +1,50 @@
+[
+    {
+        "bookId":880404,
+        "genreId":"Fiction"
+    },
+    {
+        "bookId":880404,
+        "genreId":"Fantasy"
+    },
+    {
+        "bookId":880404,
+        "genreId":"Young Adult"
+    },
+    {
+        "bookId":880404,
+        "genreId":"Adventure"
+    },
+    {
+        "bookId":880404,
+        "genreId":"Murder"
+    },
+    {
+        "bookId":880404,
+        "genreId":"Magic"
+    },
+    {
+        "bookId":456446,
+        "genreId":"Fiction"
+    },
+    {
+        "bookId":456446,
+        "genreId":"Fantasy"
+    },
+    {
+        "bookId":456446,
+        "genreId":"Young Adult"
+    },
+    {
+        "bookId":456446,
+        "genreId":"Adventure"
+    },
+    {
+        "bookId":456446,
+        "genreId":"Young Adult Fiction"
+    },
+    {
+        "bookId":456446,
+        "genreId":"Magic"
+    }
+]

@@ -3,12 +3,36 @@
         "name":"Fiction"
     },
     {
+        "name":"Fantasy"
+    },
+    {
+        "name":"Young Adult"
+    },
+    {
         "name":"Adventure"
     },
     {
-        "name":"History"
+        "name":"Murder"
     },
     {
-        "name":"Romance"
+        "name":"Magic"
+    },
+    {
+        "name":"Fiction"
+    },
+    {
+        "name":"Fantasy"
+    },
+    {
+        "name":"Young Adult"
+    },
+    {
+        "name":"Adventure"
+    },
+    {
+        "name":"Young Adult Fiction"
+    },
+    {
+        "name":"Magic"
     }
 ]

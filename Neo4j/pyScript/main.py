@@ -1,13 +1,10 @@
-import Neo4j.pyScript.Aggregates.Author as Author
-import Neo4j.pyScript.Aggregates.Book as Book
-import Neo4j.pyScript.Aggregates.User as User
-import Neo4j.pyScript.Aggregates.Genere as Genre
 import Neo4j.pyScript.Manager.API_Manager as Manager
+import Neo4j.pyScript.nodes as Node
+import Neo4j.pyScript.relationships as Relationship
 
 books_df = Manager.retrieve_books()
-Book.generate_books_file(books_df)
-Genre.generate_genre_file(books_df)
-Author.generate_author_file(books_df)
+Node.generate_all_nodes(books_df)
+Relationship.generate_all_relationships(books_df)
 
 """
 select = -1
