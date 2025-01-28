@@ -4,7 +4,7 @@ import Neo4j.pyScript.relationships as Relationship
 
 books_df = Manager.retrieve_books()
 Node.generate_all_nodes(books_df)
-# Relationship.generate_all_relationships(books_df)
+Relationship.generate_all_relationships(books_df)
 
 """
 select = -1

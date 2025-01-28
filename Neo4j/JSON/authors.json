@@ -1,85 +1,85 @@
 [
     {
-        "authorId":590087,
-        "name":"Mariam Girl Women Name Notebook",
+        "authorId":110620,
+        "name":"Christine Feehan",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":528520,
-        "name":"Antonio Bernat Vistarini",
+        "authorId":99953,
+        "name":"Jonathan Clements",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":528521,
-        "name":"John T. Cull",
+        "authorId":570579,
+        "name":"Lois W. Banner",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":528522,
-        "name":"Edward John Vodoklys",
+        "authorId":239434,
+        "name":"Mark Anderson",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":89206,
-        "name":"Neville Goddard",
+        "authorId":171555,
+        "name":"Melissa Raphael",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":983916,
-        "name":"Joseph Shadur",
+        "authorId":402411,
+        "name":"Christina Rice",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":983917,
-        "name":"Yehudit Shadur",
+        "authorId":172472,
+        "name":"Tony Fleecs",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":725209,
-        "name":"Beatriz Serrano",
+        "authorId":652754,
+        "name":"Heather Breckel",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":70766,
-        "name":"Karen Fortunati",
+        "authorId":622849,
+        "name":"Neil Uyetake",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":529314,
-        "name":"Stela Manova",
+        "authorId":199376,
+        "name":"Fran Baker",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":316834,
-        "name":"Sarah       Adams",
+        "authorId":392478,
+        "name":"Alejandro Casona",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":708926,
-        "name":"Kazushige Abe",
+        "authorId":192966,
+        "name":"Louise Penny",
+        "birthdate":"1958-07-01",
+        "nationality":"Canada"
+    },
+    {
+        "authorId":347400,
+        "name":"Ioulia Kolovou",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":140269,
-        "name":"Michael Emmerich",
-        "birthdate":null,
-        "nationality":null
-    },
-    {
-        "authorId":123827,
-        "name":"Diana Stewart",
+        "authorId":540220,
+        "name":"Onno Blom",
         "birthdate":null,
         "nationality":null
     }

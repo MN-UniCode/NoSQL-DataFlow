@@ -1,50 +1,42 @@
 [
     {
-        "bookId":880404,
+        "bookId":1585765,
         "genreId":"Fiction"
     },
     {
-        "bookId":880404,
+        "bookId":1627212,
+        "genreId":"War"
+    },
+    {
+        "bookId":1598407,
+        "genreId":"Biography"
+    },
+    {
+        "bookId":1598407,
+        "genreId":"Biography & Autobiography"
+    },
+    {
+        "bookId":1630887,
+        "genreId":"History"
+    },
+    {
+        "bookId":1647641,
         "genreId":"Fantasy"
     },
     {
-        "bookId":880404,
+        "bookId":1647641,
         "genreId":"Young Adult"
     },
     {
-        "bookId":880404,
-        "genreId":"Adventure"
+        "bookId":1647641,
+        "genreId":"Comics"
     },
     {
-        "bookId":880404,
-        "genreId":"Murder"
+        "bookId":1647641,
+        "genreId":"Farms"
     },
     {
-        "bookId":880404,
-        "genreId":"Magic"
-    },
-    {
-        "bookId":456446,
+        "bookId":334329,
         "genreId":"Fiction"
-    },
-    {
-        "bookId":456446,
-        "genreId":"Fantasy"
-    },
-    {
-        "bookId":456446,
-        "genreId":"Young Adult"
-    },
-    {
-        "bookId":456446,
-        "genreId":"Adventure"
-    },
-    {
-        "bookId":456446,
-        "genreId":"Young Adult Fiction"
-    },
-    {
-        "bookId":456446,
-        "genreId":"Magic"
     }
 ]

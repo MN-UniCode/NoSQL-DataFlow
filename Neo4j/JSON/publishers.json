@@ -1,22 +1,27 @@
 [
     {
-        "publisherId":null,
-        "name":null,
-        "country":null
+        "publisherId":135,
+        "name":"Penguin Group",
+        "country":"USA"
     },
     {
-        "publisherId":null,
-        "name":null,
-        "country":null
+        "publisherId":135,
+        "name":"Penguin Group",
+        "country":"USA"
     },
     {
-        "publisherId":null,
-        "name":null,
-        "country":null
+        "publisherId":175,
+        "name":"Harry N. Abrams",
+        "country":"USA"
     },
     {
-        "publisherId":6431,
-        "name":"UPNE",
+        "publisherId":2290,
+        "name":"Psychology Press",
+        "country":"USA"
+    },
+    {
+        "publisherId":30002,
+        "name":"Graphic Novels",
         "country":"USA"
     },
     {
@@ -35,18 +40,13 @@
         "country":null
     },
     {
-        "publisherId":3,
-        "name":"Random House",
-        "country":"USA"
-    },
-    {
-        "publisherId":10945,
-        "name":"Pushkin Press",
-        "country":"USA"
-    },
-    {
         "publisherId":null,
         "name":null,
         "country":null
+    },
+    {
+        "publisherId":7240,
+        "name":"De Bezige Bij",
+        "country":"USA"
     }
 ]

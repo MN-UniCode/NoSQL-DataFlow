@@ -1,17 +1,32 @@
 [
     {
-        "name":"General"
+        "name":"Fiction"
     },
     {
-        "name":"Art"
+        "name":"War"
+    },
+    {
+        "name":"Biography"
+    },
+    {
+        "name":"Biography & Autobiography"
+    },
+    {
+        "name":"History"
+    },
+    {
+        "name":"Fantasy"
     },
     {
         "name":"Young Adult"
     },
     {
-        "name":"Fiction"
+        "name":"Comics"
     },
     {
-        "name":"Fantasy"
+        "name":"Farms"
+    },
+    {
+        "name":"Fiction"
     }
 ]
