@@ -1,0 +1,52 @@
+[
+    {
+        "publisherId":135,
+        "name":"Penguin Group",
+        "country":"USA"
+    },
+    {
+        "publisherId":135,
+        "name":"Penguin Group",
+        "country":"USA"
+    },
+    {
+        "publisherId":175,
+        "name":"Harry N. Abrams",
+        "country":"USA"
+    },
+    {
+        "publisherId":2290,
+        "name":"Psychology Press",
+        "country":"USA"
+    },
+    {
+        "publisherId":30002,
+        "name":"Graphic Novels",
+        "country":"USA"
+    },
+    {
+        "publisherId":null,
+        "name":null,
+        "country":null
+    },
+    {
+        "publisherId":null,
+        "name":null,
+        "country":null
+    },
+    {
+        "publisherId":null,
+        "name":null,
+        "country":null
+    },
+    {
+        "publisherId":null,
+        "name":null,
+        "country":null
+    },
+    {
+        "publisherId":7240,
+        "name":"De Bezige Bij",
+        "country":"USA"
+    }
+]

@@ -10,4 +10,4 @@ if select == 0:
 elif select ==1:
     User.generate_users_file()
 else:
-    Author.generate_author_csv()
+    Author.generate_author_file()

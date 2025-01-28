@@ -1,6 +1,8 @@
 import time
 import requests
 import os
+import re
+import pandas as pd
 from config.config import API_KEY
 
 url = "https://api.hardcover.app/v1/graphql"
@@ -19,13 +21,53 @@ headers = {
     "Authorization": API_KEY
 }
 
+book_data = {
+    "bookId": None,
+    "title": None,
+    "publicationYear": None,
+    "description": None,
+    "language": None,
+    "genres" : [],
+    "authors" : [],
+    "publisher": [],
+    "reviews": [],
+    "users": []
+}
+
+
 query_books = """
 query MyQuery {
-  books(limit: 10, offset: 50, where: {description: {_is_null: false}}) {
+  books(limit: 10, offset: 100, where: {description: {_is_null: false}}) {
     id
     release_year
     title
     description
+    cached_tags
+    contributions {
+      author {
+        born_date
+        id
+        name
+        location
+      }
+    }
+    editions {
+      publisher {
+        id
+        name
+      }
+    }
+    user_books {
+        user {
+            id
+            location
+            name
+        }
+        review
+        rating
+        id
+        date_added
+    }
   }
 }
 """
@@ -65,24 +107,107 @@ def make_request_with_retries(query, variables=None, max_retries=5):
 
 # Sending the request for books with retry logic
 def retrieve_books():
-    return make_request_with_retries(query_books)
+    data = make_request_with_retries(query_books)
+    df = pd.DataFrame(book_data)
+    
+    if data:
+        books = data.get("data", {}).get("books")
+        
+        if books:
+            for book in books:
 
-def retrieve_users():
-    return make_request_with_retries(query_books)
+                # Lists
+                author_list = []
+                genres_list = []
+                publisher_list = []
+                review_list = []
+                user_list = []
 
-# Sending the request for publishers with retry logic
-def retrieve_publisher():
-    return make_request_with_retries(query_books)
+                # Book
+                id = book.get("id", None)
+                if book.get("description", None) is not None:
+                    description = re.sub(r'[^a-zA-Z0-9 ]', '', book.get("description"))
+                else:
+                    description = book.get("description", None)
+                release_year = book.get("release_year", None)
+                title = book.get("title", None)
 
-# Sending the request for book reviews with retry logic
-def retrieve_genre():
-    return make_request_with_retries(query_books)
+                # Author
+                contibutions = book.get("contributions", None)
+                if contibutions:
+                    for contribution in contibutions:
+                        author_data = {
+                            "authorId": None,
+                            "name": None,
+                            "birthdate": None,
+                            "nationality": None
+                        }
+                        
+                        author = contribution.get("author", None)
+                        if author:
+                            author_data["authorId"] = author.get("id", None)
+                            author_data["name"] = author.get("name", None)
+                            author_data["nationality"] = author.get("location", None)
+                            author_data["birthdate"] = author.get("born_date", None)
+                            author_list.append(author_data)
+                
+                # Genre
+                cached_tags = book.get("cached_tags")
+                if cached_tags:
+                    genres = cached_tags.get("Genre")
+                    for genre in genres:
+                        if(genre.get("tag")):
+                            genres_list.append(genre.get("tag"))
+                
+                # Publisher
+                editions = book.get("editions", None)
+                for edition in editions:
+                    publisher_data = {
+                        "publisherId": None,
+                        "name": None,
+                        "country": None
+                    }
 
-def retrive_author():
-    return make_request_with_retries(query_books)
+                    publisher = edition.get("publisher", None)
+                    if publisher:
+                        publisher_data["publisherId"] = publisher.get("id", None)
+                        publisher_data["name"] = publisher.get("name", None)
+                        publisher_data["country"] = "USA"
+                        publisher_list.append(publisher_data)
 
-def retrieve_review():
-    return make_request_with_retries(query_books)
+                # Review
+                user_books = book.get("user_books", None)
+                for user_book in user_books:
+                    review_data = {
+                        "reviewId": None,
+                        "score": None,
+                        "comment": None,
+                        "date": None
+                    }
+                    
+                    review_data["reviewId"] = user_book.get("id", None)
+                    review_data["score"] = user_book.get("rating", None)
+                    review_data["comment"] = user_book.get("review", None)
+                    review_data["date"] = user_book.get("date_added", None)
+                    review_list.append(review_data)
+                    
+                    # User
+                    user_data = {
+                        "userId": None,
+                        "name": None,
+                        "birthdate": None,
+                        "nationality": None
+                    }
+
+                    user = user_book.get("user", None)
+                    user_data["userId"] = user.get("id", None)
+                    user_data["name"] = user.get("name", None)
+                    user_data["nationality"] = user.get("location", None)
+                    user_list.append(user_data)
+                #print(review_list)
+                df.loc[len(df)] = [id, title, release_year, description, "English", genres_list, author_list, publisher_data, review_list, user_list]      
+    return df
+
 
 def create_file(df, filename):
 

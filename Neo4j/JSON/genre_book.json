@@ -1,0 +1,42 @@
+[
+    {
+        "bookId":1585765,
+        "genreId":"Fiction"
+    },
+    {
+        "bookId":1627212,
+        "genreId":"War"
+    },
+    {
+        "bookId":1598407,
+        "genreId":"Biography"
+    },
+    {
+        "bookId":1598407,
+        "genreId":"Biography & Autobiography"
+    },
+    {
+        "bookId":1630887,
+        "genreId":"History"
+    },
+    {
+        "bookId":1647641,
+        "genreId":"Fantasy"
+    },
+    {
+        "bookId":1647641,
+        "genreId":"Young Adult"
+    },
+    {
+        "bookId":1647641,
+        "genreId":"Comics"
+    },
+    {
+        "bookId":1647641,
+        "genreId":"Farms"
+    },
+    {
+        "bookId":334329,
+        "genreId":"Fiction"
+    }
+]

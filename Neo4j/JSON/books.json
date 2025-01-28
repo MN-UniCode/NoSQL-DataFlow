@@ -1,72 +1,1104 @@
 [
     {
-        "bookId":588274,
-        "title":"Katherine Mansfield and Bliss and Other Stories",
-        "publicationYear":2022,
-        "description":"This book celebrates the centennial of Blisss publication by offering new readings of some of Mansfields most wellknown stories",
-        "language":"English"
+        "bookId":1585765,
+        "title":"Dark Hope",
+        "publicationYear":2025,
+        "description":"Immortal passions rage as evil grows in this gripping novel in Christine Feehans 1 New York Times bestselling Carpathian seriesSilke Vriese Reinders knows a war is coming The demon slayer has seen it over and over again in the cardsand the battle wont just be for the survival of her remote village but for all mankind Silke knows the only way to win will be with the help of the Carpathians A fact that fills her with trepidation as she is fated to be the lifemate to one of the ancient supernatural warriorsbound to a complete stranger and responsible for his soulOne of the oldest most dangerous Carpathians Benedek Kovak is more beast than man Locked away for centuries the only thing that has stopped him from becoming one of the monsters hes sworn to defeat is the thought of his lifemate When Benedek senses the impending danger he sets out to find her before its too late But their enemy has laid a trap that pushes him closer to turning than ever beforeFor so long Benedek has felt nothing Now some dark art is compelling him to indulge in cravings he thought long buried He has no hope that anyone can restore whats left of his tainted soul but Silke is nothing like he imagined Perhaps shes strong enough to fight back the darkness Perhaps together they can defeat an adversary hell bent on destroying them all",
+        "language":"English",
+        "publisher":{
+            "publisherId":135,
+            "name":"Penguin Group",
+            "country":"USA"
+        },
+        "reviews":[
+            {
+                "reviewId":4937092,
+                "score":null,
+                "comment":null,
+                "date":"2024-09-09"
+            }
+        ],
+        "users":[
+            {
+                "userId":21889,
+                "name":"Celeste Duque",
+                "birthdate":null,
+                "nationality":"Lisbon"
+            }
+        ]
     },
     {
-        "bookId":588388,
-        "title":"Bear Attacks, Dog Teams and a Sinking Boat",
-        "publicationYear":2021,
-        "description":"Life is full of experiences These experiences can be useful windows in teaching us spiritual truths Jesus taught this way Often He used physical examples to illustrate spiritual truths These short devotionals use life experiences not only to connect the physical to the spiritual but to encourage the reader to finish the climb the spiritual life journey that all Christians are on Its similar to climbing a mountain The goal is the summit Its similar to a race on a track The goal is to finish There is a lot involved a lot that happens between the start and the finish This book includes the principles and methods learned in my journey It includes problems to be aware of and common mistakes to avoid along the way There are also certain methods that will be helpful for life These are the result of 40 years of missionary and pastoral service We are all on a journey The journey has its ups and downs but there is a start and there is a finish We want to finish well My own life adventures and experiences have become illustrations with a message A message that seeks to point us upwards and onwards in the life journey we are on These 33 stories are wisdom lessons learned during my life of adventures from climbing canoeing guiding in Alaska living in a remote village in Nepal basically from 40 years of ministry They are designed so readers can understand spiritual principles The lessons are a great tool for group discussion or for the person who is busy and enjoys a short daily challenge using real experiences as a window into spiritual principles",
-        "language":"English"
+        "bookId":1627212,
+        "title":"Rebel Island: The Incredible Story of Taiwan",
+        "publicationYear":2024,
+        "description":"The gripping history of Taiwan from the flood myths of indigenous legend to its Asian Tiger economic miracle  and the renewed threat of invasion by China Once dismissed by the Kangxi Emperor as nothing but a ball of mud Taiwan has a modern GDP larger than that of Sweden in a land area smaller than Indiana It is the last surviving enclave of the Republic of China a lost colony of Japan and claimed by Beijing as a rogue province  merely the latest chapters in its long history as a refuge for pirates rebels settlers and outcasts Jonathan Clements examines the unique conditions of Taiwans archaeology and indigenous history and its days as a Dutch and Spanish trading post He delves into its periods as an independent kingdom Chinese province and shortlived republic and the transformations wrought by 50 years as part of the Japanese Empire He examines the traumatic effects of its role as a lifeboat in 1949 for two million refugees from Communism and the conflicts emerging after the suspension of four decades of martial law as its people debate issues of selfdetermination independence and home rule",
+        "language":"English",
+        "publisher":{
+            "publisherId":135,
+            "name":"Penguin Group",
+            "country":"USA"
+        },
+        "reviews":[
+
+        ],
+        "users":[
+
+        ]
     },
     {
-        "bookId":588450,
-        "title":"When Opposite Worlds Collide",
-        "publicationYear":2006,
-        "description":"Val is an extremely attractive and very bright young AfricanAmerican woman An exotic dancer by trade and very successful at her craft the hard gristled back boned enchantress lives a free wheeling come and go as she pleases lifestyle Choosing to always remain emotionally unattached Val very much enjoys the intrinsic freedoms of her devilmaycare standard of existence By far her favorite customer is a good looking and very upstanding Ebony gentleman named Martin who made sporadic appearances at the club where she danced A very welltodo advertising executive Martin has been widowed for 10 years and is 18 years further up the age ladder than is Val In coming from the opposed stations that they hailed from their improbable association will take them both on a gut wrenching emotionally charged rollercoaster ride that neither of them could ever have been mentally prepared for and trigger a chain of events that is packed with the types of drama twists and turns that oft times happenWhen Opposite Worlds Collide",
-        "language":"English"
+        "bookId":1598407,
+        "title":"MM-Personal: From the Private Archive of Marilyn Monroe",
+        "publicationYear":2010,
+        "description":"A look at the life and career of Marilyn Monroe via her archive of artifacts letters and documents",
+        "language":"English",
+        "publisher":{
+            "publisherId":175,
+            "name":"Harry N. Abrams",
+            "country":"USA"
+        },
+        "reviews":[
+            {
+                "reviewId":5016875,
+                "score":4.0,
+                "comment":null,
+                "date":"2016-10-03"
+            },
+            {
+                "reviewId":5791625,
+                "score":null,
+                "comment":null,
+                "date":"2016-02-28"
+            },
+            {
+                "reviewId":5913852,
+                "score":null,
+                "comment":null,
+                "date":"2016-03-18"
+            }
+        ],
+        "users":[
+            {
+                "userId":22283,
+                "name":"Tim",
+                "birthdate":null,
+                "nationality":"Netherlands"
+            },
+            {
+                "userId":26211,
+                "name":"Sally Abdalgadir",
+                "birthdate":null,
+                "nationality":"US"
+            },
+            {
+                "userId":26722,
+                "name":"Carly",
+                "birthdate":null,
+                "nationality":"England"
+            }
+        ]
     },
     {
-        "bookId":588350,
-        "title":"Giovanni Battista Piranesi und seine Bedeutung als Graphiker in Rom vom 18. Jahrhundert bis heute",
-        "publicationYear":2018,
-        "description":"Studienarbeit aus dem Jahr 2016 im Fachbereich Kunst  Kunstgeschichte Note 13 MartinLutherUniversitt HalleWittenberg Veranstaltung Seminar Andrea Palladio und die vier Bcher zur Baukunst Sprache Deutsch Abstract Giovanni Battista Piranesi war nicht nur als Radierer und Kupferstecher im 18 Jahrhundert bekannt sondern auch als Architekt und Archologe In dieser Hausarbeit soll es weniger um seine theoretischen Hinterlassenschaften gehen Es wird sich verstrkt auf seine Arbeit als Graphiker in Rom konzentriert werden Vergleiche seiner Zeichnungen mit Abbildungen der selben Objekte anderer Knstler und Abbildungen ab dem 18 Jahrhundert bis heute sollen zeigen wie genau Piranesi auf die realittsnahe Darstellung seiner Veduten geachtet hat Wichtig wre heraus zu finden ob er eigene Motive Personen oder Gegenstnde in seine Zeichnungen integriert hat um bestimmte Interpretationen und Denkweisen bei den Betrachtern hervorzurufen Es soll dargestellt werden welche Bedeutung Piranesis Zeichnungen fr den genannten Zeitraum haben und was gerade seine Darstellungen wichtiger Gebude Roms fr das Verstndnis nachkommender Generationen bedeuten Um Piranesis Liebe zu Rom nachvollziehen zu knnen wird vorher aufgezeigt werden wie sein Weg nach Rom verlief und welche Motivationen ihn dazu bewegten dort zu bleiben Anschlieend sollen zwei Beispiele wichtiger rmischer Bauten beschrieben verglichen und interpretiert werden Schlussendlich werden die wichtigsten Ergebnisse noch einmal zusammen gefasst aufgezeigt",
-        "language":"English"
+        "bookId":1630887,
+        "title":"The Female Face of God in Auschwitz: A Jewish Feminist Theology of the Holocaust",
+        "publicationYear":2003,
+        "description":"The first fulllength feminist dialogue with Holocaust theory theology and social history Considers womens reactions to the holy in the camps at Auschwitz",
+        "language":"English",
+        "publisher":{
+            "publisherId":2290,
+            "name":"Psychology Press",
+            "country":"USA"
+        },
+        "reviews":[
+            {
+                "reviewId":5250456,
+                "score":null,
+                "comment":null,
+                "date":"2023-03-22"
+            }
+        ],
+        "users":[
+            {
+                "userId":23280,
+                "name":"Seething",
+                "birthdate":null,
+                "nationality":"Lenapehoking"
+            }
+        ]
     },
     {
-        "bookId":588454,
-        "title":"Zimmer 103",
-        "publicationYear":2020,
-        "description":"New York 1982 Viv Delaney arbeitet als Nachtwchterin im Sun Down Motel Doch die Nchte dort sind lang Und einsam Und mit jeder Schicht wchst Vivs Angst Angst vor einer ungreifbaren Bedrohung  New York 2017 Carly Kirk zieht es in das in die Jahre gekommene Sun Down Motel wo ihre Tante Viv vor mehr als 30 Jahren spurlos verschwand Sie will endlich die Wahrheit herausfinden Doch das Geheimnis das das alte Motel htet und dem nicht nur ihre Tante zum Opfer gefallen ist bertrifft Carlys schlimmste Albtrume ",
-        "language":"English"
-    },
-    {
-        "bookId":588486,
-        "title":"Iraq",
-        "publicationYear":2004,
-        "description":"Looks at the ideological and political reasons for the Iraq War",
-        "language":"English"
-    },
-    {
-        "bookId":588303,
-        "title":"Das Bonus-Geheimnis",
+        "bookId":1647641,
+        "title":"My Little Pony Friends Forever: Granny & the Flim Flam Brothers",
         "publicationYear":2014,
-        "description":"Die Managergehlter  wie kann es anders sein  sind ein unerschpfliches Thema in diesen neuen und letzten BusinessClassGeschichten Und  die zweite erogene Zone der Manageridentitt  der saftige alljhrliche Bonus",
-        "language":"English"
+        "description":"Granny Smith settles an ugly dispute between the Flim Flam brothers Aligned to Common Core Standards and correlated to state standards Spotlight is a division of ABDO",
+        "language":"English",
+        "publisher":{
+            "publisherId":30002,
+            "name":"Graphic Novels",
+            "country":"USA"
+        },
+        "reviews":[
+            {
+                "reviewId":5405336,
+                "score":null,
+                "comment":null,
+                "date":"2021-05-07"
+            }
+        ],
+        "users":[
+            {
+                "userId":24259,
+                "name":"Ryan Linton",
+                "birthdate":null,
+                "nationality":"Saratoga Springs, Utah"
+            }
+        ]
     },
     {
-        "bookId":588459,
-        "title":"Iron Flowers \u2013 Die Rebellinnen",
-        "publicationYear":2018,
-        "description":"Sie haben keine RechteSie mussten ihre Trume aufgebenDoch sie kmpfen eisern fr Freiheit und LiebeSie sind Schwestern knnten unterschiedlicher nicht sein und sind dennoch unzertrennlich Nomi ist wild und unerschrocken Serina schn und anmutig Und sie ist fest entschlossen vom Thronfolger zu seiner Grace auserwhlt zu werden und ihr von Armut und Unterdrckung geprgtes Leben gegen eines im prunkvollen Regentenpalast einzutauschen Doch am Tag der Auswahl kommt alles anders Die Schwestern werden auseinandergerissen  und ein grauenhaftes Schicksal erwartet sie auf das sie niemand vorbereitet hatDie neue Serie fr alle SelectionFans ein aufregendes Setting junge starke rebellische Frauen mitreiende Spannung und viel RomantikSchutzumschlag mit Goldfolienveredelung",
-        "language":"English"
+        "bookId":591499,
+        "title":"Miss Antiqua's Adventure",
+        "publicationYear":2012,
+        "description":"Antiqua Greybill doesnt care that the handsome stranger thinks her a lightskirt so long as he takes her with him back to England She has a dangerous mission to deliver the secret papers hidden in her muff More dangerous yet however are the strangers skillful kisses and the discovery that he is the notorious Jack Vincentthe very man she is fleeing Regency Romance by Fran Baker originally published by Delphi Books and Belgrave HouseRegency Reads",
+        "language":"English",
+        "publisher":{
+            "publisherId":null,
+            "name":null,
+            "country":null
+        },
+        "reviews":[
+
+        ],
+        "users":[
+
+        ]
     },
     {
-        "bookId":588506,
-        "title":"CEO's Acquisitive Love",
+        "bookId":736576,
+        "title":"Los Arboles Mueren de Pie",
+        "publicationYear":2016,
+        "description":"Pero llega por sorpresa el malvado y verdadero nieto que no ha muerto como se crea Por fin la abuela se entera del engao pero decide no comentarlo al imitador ni a la muchacha como agradecimiento por los das felices que le han hecho vivir y en definitiva con el mismo objetivo que la pareja y la institucin de Mauricio haban ido a realizar all hacer realidad ilusiones",
+        "language":"English",
+        "publisher":{
+            "publisherId":null,
+            "name":null,
+            "country":null
+        },
+        "reviews":[
+            {
+                "reviewId":4767558,
+                "score":null,
+                "comment":null,
+                "date":"2024-11-03"
+            }
+        ],
+        "users":[
+            {
+                "userId":21052,
+                "name":"Abigail Pe\u00f1a Alejos",
+                "birthdate":null,
+                "nationality":"Berlin"
+            }
+        ]
+    },
+    {
+        "bookId":334329,
+        "title":"Still Life \/ A Fatal Grace \/ The Cruelest Month",
+        "publicationYear":2014,
+        "description":"1 New York Times and Globe and Mail bestselling author Louse Pennys beloved Chief Inspector Armand Gamache mystery novels have received critical acclaim won numerous awards and have enthralled millions of readers Featuring Chief Inspector of Homicide Armand Gamache of the Sret du Qubec these extraordinary novels are here together for the first time in a fabulous ebook bundle Still Life Chief Inspector Gamache and his team of investigators are called to the scene of a suspicious death in Three Pines a rural village south of Montreal The locals are certain its a tragic hunting accident and nothing more but Gamache smells something foul this Thanksgiving season A Fatal Grace When CC de Poitiers is found dead the day after Christmas electrocuted in the middle of curling match with no witnesses Chief Inspector Gamache digs beneath the surface to find where the real secrets are buried But it seems that Gamache has some enemies of his own and with the coming of the bitter winter winds something far more chilling is in store The Cruelest Month A group of Three Pines villagers decide to celebrate Easter with a sance at the Old Hadley House hoping to rid the town of its eviluntil one of their party dies of fright But was it a natural death or murder As Chief Inspector Gamache investigates he will be forced to face his very own ghosts as well as those residing in this seemingly idyllic town",
+        "language":"English",
+        "publisher":{
+            "publisherId":null,
+            "name":null,
+            "country":null
+        },
+        "reviews":[
+            {
+                "reviewId":264177,
+                "score":3.0,
+                "comment":null,
+                "date":"2011-08-02"
+            },
+            {
+                "reviewId":290810,
+                "score":null,
+                "comment":null,
+                "date":"2019-10-31"
+            },
+            {
+                "reviewId":172891,
+                "score":4.0,
+                "comment":null,
+                "date":"2021-12-02"
+            },
+            {
+                "reviewId":821579,
+                "score":3.0,
+                "comment":null,
+                "date":"2022-06-12"
+            },
+            {
+                "reviewId":163629,
+                "score":null,
+                "comment":null,
+                "date":"2020-02-25"
+            },
+            {
+                "reviewId":256162,
+                "score":null,
+                "comment":null,
+                "date":"2022-08-25"
+            },
+            {
+                "reviewId":706661,
+                "score":4.0,
+                "comment":null,
+                "date":"2015-01-16"
+            },
+            {
+                "reviewId":732785,
+                "score":2.0,
+                "comment":null,
+                "date":"2017-08-31"
+            },
+            {
+                "reviewId":1059056,
+                "score":4.0,
+                "comment":null,
+                "date":"2023-10-09"
+            },
+            {
+                "reviewId":228328,
+                "score":4.0,
+                "comment":"<p>Most enjoyable as all other Louise Penny books I have read. I loved the twists and turns in the plot.<\/p>",
+                "date":"2017-09-12"
+            },
+            {
+                "reviewId":2878629,
+                "score":null,
+                "comment":null,
+                "date":"2015-05-02"
+            },
+            {
+                "reviewId":884424,
+                "score":null,
+                "comment":null,
+                "date":"2023-04-09"
+            },
+            {
+                "reviewId":1305751,
+                "score":4.0,
+                "comment":"<p>\u041a\u0443\u043c\u0435\u0434\u043d\u0438\u0439 \u043b\u0435\u0442\u0435\u043a\u0442\u0438\u0432. \u041c\u043e\u0436\u0435 \u0437\u0434\u0430\u0442\u0438\u0441\u044c \u0442\u0440\u043e\u0448\u043a\u0438 \u0437\u0430\u0442\u044f\u0433\u043d\u0443\u0442\u0438\u043c, \u0430\u043b\u0435 \u0432 \u043d\u044c\u043e\u0433\u043e \u0454 \u0441\u0432\u043e\u044f \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430. <br \/>\u0420\u043e\u0437\u0433\u0430\u0434\u043a\u0443 \u044f \u043d\u0435 \u0432\u0456\u0434\u0433\u0430\u043b\u0430\u0434\u0430 \u0430\u0436 \u0434\u043e \u0441\u0430\u043c\u043e\u0433\u043e \u0441\u0430\u043c\u043e\u0433\u043e \u043a\u0456\u043d\u0446\u044f. \u0410\u0432\u0442\u043e\u0440\u043a\u0430 \u0433\u0430\u0440\u043d\u043e \u0432\u0456\u0434\u0432\u0435\u0440\u043d\u0443\u043b\u0430 \u0443\u0432\u0430\u0433\u0443, \u0456 \u0433\u043e\u0440\u0442\u0430\u044e\u0447\u0438 \u0437\u043d\u043e\u0432\u0443, \u043c\u043e\u0436\u043d\u0430 \u0431\u0443\u043b\u043e \u0442\u0430\u043a\u0438 \u0437\u0434\u043e\u0433\u0430\u0434\u0430\u0442\u0438\u0441\u044c, \u0445\u0442\u043e \u0441\u0430\u043c\u0435 \u0432\u0438\u043d\u043d\u0438\u0439. \u0410\u043b\u0435 \u043c\u0430\u0433\u0456\u044f \u0441\u043f\u0440\u0430\u0446\u044e\u0432\u0430\u043b\u0430.<\/p>",
+                "date":"2020-06-23"
+            },
+            {
+                "reviewId":1154182,
+                "score":3.0,
+                "comment":null,
+                "date":"2023-03-13"
+            },
+            {
+                "reviewId":1205975,
+                "score":4.0,
+                "comment":null,
+                "date":"2022-11-28"
+            },
+            {
+                "reviewId":1715048,
+                "score":null,
+                "comment":null,
+                "date":"2018-02-11"
+            },
+            {
+                "reviewId":1749418,
+                "score":3.0,
+                "comment":null,
+                "date":"2017-02-25"
+            },
+            {
+                "reviewId":360829,
+                "score":null,
+                "comment":null,
+                "date":"2017-05-28"
+            },
+            {
+                "reviewId":5620509,
+                "score":4.0,
+                "comment":null,
+                "date":"2022-07-29"
+            },
+            {
+                "reviewId":1720994,
+                "score":null,
+                "comment":null,
+                "date":"2022-05-04"
+            },
+            {
+                "reviewId":1619724,
+                "score":null,
+                "comment":null,
+                "date":"2021-11-04"
+            },
+            {
+                "reviewId":2456178,
+                "score":null,
+                "comment":null,
+                "date":"2016-01-09"
+            },
+            {
+                "reviewId":1903808,
+                "score":4.0,
+                "comment":null,
+                "date":"2016-12-27"
+            },
+            {
+                "reviewId":1738872,
+                "score":5.0,
+                "comment":"<p>A good mystery with a flawed group of people. I figured out the who before the end, so showing the flaws of the characters didn\u2019t affect the solution. It did however make the book much more realistic. I can\u2019t wait to get a hold off book two.<\/p>",
+                "date":"2016-07-08"
+            },
+            {
+                "reviewId":633573,
+                "score":5.0,
+                "comment":null,
+                "date":"2015-04-27"
+            },
+            {
+                "reviewId":2919583,
+                "score":3.0,
+                "comment":null,
+                "date":"2012-12-24"
+            },
+            {
+                "reviewId":2070898,
+                "score":4.0,
+                "comment":null,
+                "date":"2017-06-04"
+            },
+            {
+                "reviewId":4673463,
+                "score":3.0,
+                "comment":null,
+                "date":"2021-04-10"
+            },
+            {
+                "reviewId":994285,
+                "score":4.0,
+                "comment":null,
+                "date":"2016-07-19"
+            },
+            {
+                "reviewId":2987511,
+                "score":3.0,
+                "comment":null,
+                "date":"2023-09-14"
+            },
+            {
+                "reviewId":2188699,
+                "score":null,
+                "comment":null,
+                "date":"2022-12-11"
+            },
+            {
+                "reviewId":2225688,
+                "score":3.0,
+                "comment":null,
+                "date":"2023-07-04"
+            },
+            {
+                "reviewId":3015594,
+                "score":3.0,
+                "comment":null,
+                "date":"2016-11-07"
+            },
+            {
+                "reviewId":2345637,
+                "score":null,
+                "comment":null,
+                "date":"2021-06-17"
+            },
+            {
+                "reviewId":2659862,
+                "score":null,
+                "comment":"<p>Didn\u2019t vibe with the writing style.<\/p>",
+                "date":"2021-10-24"
+            },
+            {
+                "reviewId":2682101,
+                "score":null,
+                "comment":null,
+                "date":"2023-01-04"
+            },
+            {
+                "reviewId":2697824,
+                "score":4.0,
+                "comment":null,
+                "date":"2017-05-05"
+            },
+            {
+                "reviewId":1094701,
+                "score":null,
+                "comment":null,
+                "date":"2022-11-25"
+            },
+            {
+                "reviewId":2712443,
+                "score":null,
+                "comment":null,
+                "date":"2021-09-26"
+            },
+            {
+                "reviewId":2735259,
+                "score":5.0,
+                "comment":null,
+                "date":"2017-10-29"
+            },
+            {
+                "reviewId":3091146,
+                "score":5.0,
+                "comment":null,
+                "date":"2012-11-23"
+            },
+            {
+                "reviewId":2771268,
+                "score":4.0,
+                "comment":"<p>Such a good read. <br \/><br \/>I struggled to get into the beginning of the book.  I was very intrigued but couldn\u2019t picture where the story was going.  I\u2019m happy i kept reading because it picked around the 100 page mark for me.  I loved chief inspector Gamache  as a character.  The mystery was sooo interesting that it kept me guessing.  The ending was not expected at all, but made son much sense.   I can\u2019t wait to read the next book in the series.<\/p>",
+                "date":"2023-12-18"
+            },
+            {
+                "reviewId":3117781,
+                "score":null,
+                "comment":null,
+                "date":"2023-04-12"
+            },
+            {
+                "reviewId":3357678,
+                "score":3.0,
+                "comment":null,
+                "date":"2013-05-23"
+            },
+            {
+                "reviewId":5623983,
+                "score":5.0,
+                "comment":null,
+                "date":"2015-04-09"
+            },
+            {
+                "reviewId":5476076,
+                "score":null,
+                "comment":null,
+                "date":"2015-04-26"
+            },
+            {
+                "reviewId":5477068,
+                "score":4.0,
+                "comment":"<p>Loved the cozy mysterious vibes from this book! Also I had no idea who the killer was until very close before the reveal which was fun.<\/p>",
+                "date":"2022-08-18"
+            },
+            {
+                "reviewId":3497421,
+                "score":3.0,
+                "comment":"<p>3.5 Stars<\/p>",
+                "date":"2022-11-02"
+            },
+            {
+                "reviewId":3505434,
+                "score":null,
+                "comment":null,
+                "date":"2019-01-17"
+            },
+            {
+                "reviewId":3509403,
+                "score":4.0,
+                "comment":null,
+                "date":"2021-02-10"
+            },
+            {
+                "reviewId":3646943,
+                "score":4.0,
+                "comment":null,
+                "date":"2024-04-28"
+            },
+            {
+                "reviewId":3777578,
+                "score":5.0,
+                "comment":null,
+                "date":"2018-07-14"
+            },
+            {
+                "reviewId":5628239,
+                "score":3.0,
+                "comment":null,
+                "date":"2012-06-28"
+            },
+            {
+                "reviewId":3820457,
+                "score":3.0,
+                "comment":null,
+                "date":"2023-04-30"
+            },
+            {
+                "reviewId":3924932,
+                "score":null,
+                "comment":null,
+                "date":"2022-12-18"
+            },
+            {
+                "reviewId":4982040,
+                "score":3.0,
+                "comment":"<p>Short Review: a small town murder in rural Canada. This was recommended to me by a friend because I really liked Bruno Chief of Police series. This series is a bit older and doesn\u2019t spend quite as much time on food and wine, but is similar in feel. The characters are the focus and the crimes are real but the focus is telling the story, not leading the reader on a path. This seemed pretty straight forward but lead to a number of false leads before resolving itself. There is a clear back story to the book, so I assume the rest of the series will work on revealing that back story. There are now 10 books in the series so I have a ways to go. <br \/><br \/><br \/>My full review is on my blog at http:\/\/bookwi.se\/still-life\/<br \/><br \/>I listened to the audiobook from Scribd. I am really liking the ebook\/audiobook subscription service.  If you have not heard of it or are interested in my review it is http:\/\/bookwi.se\/scribd-a-review\/<\/p>",
+                "date":"2015-01-09"
+            },
+            {
+                "reviewId":4222964,
+                "score":null,
+                "comment":null,
+                "date":"2023-05-14"
+            },
+            {
+                "reviewId":5104407,
+                "score":null,
+                "comment":null,
+                "date":"2023-04-12"
+            },
+            {
+                "reviewId":4463949,
+                "score":4.0,
+                "comment":null,
+                "date":"2023-05-30"
+            },
+            {
+                "reviewId":5128166,
+                "score":null,
+                "comment":null,
+                "date":"2022-11-15"
+            },
+            {
+                "reviewId":4572040,
+                "score":null,
+                "comment":null,
+                "date":"2020-03-10"
+            },
+            {
+                "reviewId":4597784,
+                "score":null,
+                "comment":null,
+                "date":"2017-04-29"
+            },
+            {
+                "reviewId":5581452,
+                "score":4.0,
+                "comment":null,
+                "date":"2017-02-07"
+            },
+            {
+                "reviewId":5346091,
+                "score":4.0,
+                "comment":null,
+                "date":"2022-04-26"
+            },
+            {
+                "reviewId":5606889,
+                "score":5.0,
+                "comment":"<p>listened to this one in the car. it\u2019s a nicely layered mystery and very well crafted. really liked the humor and found myself laughing out loud at several points. Am looking forward to reading others by this author.<\/p>",
+                "date":"2015-04-25"
+            },
+            {
+                "reviewId":5639309,
+                "score":null,
+                "comment":null,
+                "date":"2020-07-21"
+            },
+            {
+                "reviewId":5670008,
+                "score":null,
+                "comment":null,
+                "date":"2020-05-14"
+            },
+            {
+                "reviewId":5826317,
+                "score":null,
+                "comment":null,
+                "date":"2015-04-25"
+            },
+            {
+                "reviewId":5871378,
+                "score":null,
+                "comment":null,
+                "date":"2020-10-09"
+            },
+            {
+                "reviewId":6033890,
+                "score":null,
+                "comment":null,
+                "date":"2017-11-05"
+            }
+        ],
+        "users":[
+            {
+                "userId":1189,
+                "name":"Chris",
+                "birthdate":null,
+                "nationality":"Perth, WA"
+            },
+            {
+                "userId":1309,
+                "name":"Annie",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":847,
+                "name":"Stephen Waller",
+                "birthdate":null,
+                "nationality":"Irving, Texas"
+            },
+            {
+                "userId":3470,
+                "name":"Erin Castleman",
+                "birthdate":null,
+                "nationality":"Charlotte, NC"
+            },
+            {
+                "userId":770,
+                "name":"Lory",
+                "birthdate":null,
+                "nationality":"Villeret, Switzerland"
+            },
+            {
+                "userId":1135,
+                "name":"Lisa Petrilli",
+                "birthdate":null,
+                "nationality":"Naperville, Illinois "
+            },
+            {
+                "userId":3048,
+                "name":"Guy Conner",
+                "birthdate":null,
+                "nationality":"Phoenix AZ"
+            },
+            {
+                "userId":3112,
+                "name":"Damien Ryan",
+                "birthdate":null,
+                "nationality":"Cambridge, UK"
+            },
+            {
+                "userId":4448,
+                "name":"Jenna Lea Coroliuc",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":984,
+                "name":"Manisha V",
+                "birthdate":null,
+                "nationality":"Virginia "
+            },
+            {
+                "userId":11610,
+                "name":"Gail",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":3684,
+                "name":"Sarah Quinn",
+                "birthdate":null,
+                "nationality":"Kansas"
+            },
+            {
+                "userId":5605,
+                "name":"Alona",
+                "birthdate":null,
+                "nationality":"Kyiv, Ukraine"
+            },
+            {
+                "userId":4900,
+                "name":"Katie",
+                "birthdate":null,
+                "nationality":"Louisville, KY"
+            },
+            {
+                "userId":5118,
+                "name":"Diana",
+                "birthdate":null,
+                "nationality":"Colorado, USA"
+            },
+            {
+                "userId":7196,
+                "name":"Melissa",
+                "birthdate":null,
+                "nationality":"Oklahoma"
+            },
+            {
+                "userId":7319,
+                "name":"Mer Barr",
+                "birthdate":null,
+                "nationality":"Atlanta, GA, USA"
+            },
+            {
+                "userId":1599,
+                "name":"Connie Benz",
+                "birthdate":null,
+                "nationality":"California"
+            },
+            {
+                "userId":25313,
+                "name":"Whitney",
+                "birthdate":null,
+                "nationality":"Oregon"
+            },
+            {
+                "userId":7227,
+                "name":"Andrew",
+                "birthdate":null,
+                "nationality":"Portland, OR"
+            },
+            {
+                "userId":6903,
+                "name":"Jon Lusty",
+                "birthdate":null,
+                "nationality":"Minnesota, USA"
+            },
+            {
+                "userId":9325,
+                "name":"Amy",
+                "birthdate":null,
+                "nationality":"Portland, OR"
+            },
+            {
+                "userId":7884,
+                "name":"Pippibookstocking",
+                "birthdate":null,
+                "nationality":"Virginia"
+            },
+            {
+                "userId":7300,
+                "name":"Andrea Ward",
+                "birthdate":null,
+                "nationality":"North Carolina"
+            },
+            {
+                "userId":2871,
+                "name":"Tanya",
+                "birthdate":null,
+                "nationality":"Michigan "
+            },
+            {
+                "userId":11712,
+                "name":"Lynda ",
+                "birthdate":null,
+                "nationality":"Texas"
+            },
+            {
+                "userId":8986,
+                "name":"Seymone",
+                "birthdate":null,
+                "nationality":"Georgia"
+            },
+            {
+                "userId":20619,
+                "name":"Tanner",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":4135,
+                "name":"Jacob",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":11907,
+                "name":"Kelley",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":9248,
+                "name":"Laura",
+                "birthdate":null,
+                "nationality":"Scotland"
+            },
+            {
+                "userId":9300,
+                "name":"Amy",
+                "birthdate":null,
+                "nationality":"Florida"
+            },
+            {
+                "userId":10865,
+                "name":"Harriet Johnston",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":9836,
+                "name":"Cassandra",
+                "birthdate":null,
+                "nationality":"Tennessee"
+            },
+            {
+                "userId":10786,
+                "name":"izza",
+                "birthdate":null,
+                "nationality":"canada"
+            },
+            {
+                "userId":10995,
+                "name":"Lorraine Rideau",
+                "birthdate":null,
+                "nationality":"California"
+            },
+            {
+                "userId":11049,
+                "name":"Joan",
+                "birthdate":null,
+                "nationality":"Louisiana"
+            },
+            {
+                "userId":4621,
+                "name":"Karine",
+                "birthdate":null,
+                "nationality":"Canada"
+            },
+            {
+                "userId":11104,
+                "name":"Ryuko",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":11116,
+                "name":"Cait",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":12257,
+                "name":"Eric Barstad",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":11273,
+                "name":"Brandy Walls",
+                "birthdate":null,
+                "nationality":"California"
+            },
+            {
+                "userId":12407,
+                "name":"Izzy",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":13333,
+                "name":"Melissa",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":25322,
+                "name":"Katy",
+                "birthdate":null,
+                "nationality":"Israel"
+            },
+            {
+                "userId":24673,
+                "name":"Kathrine",
+                "birthdate":null,
+                "nationality":"Ohio"
+            },
+            {
+                "userId":24678,
+                "name":"Phoebe LaMountain",
+                "birthdate":null,
+                "nationality":"San Francisco "
+            },
+            {
+                "userId":13987,
+                "name":"Sadeyes2 ",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":14022,
+                "name":"Suzi",
+                "birthdate":null,
+                "nationality":"UK"
+            },
+            {
+                "userId":14047,
+                "name":"Donna",
+                "birthdate":null,
+                "nationality":"New England"
+            },
+            {
+                "userId":14633,
+                "name":"Mel",
+                "birthdate":null,
+                "nationality":"Germany"
+            },
+            {
+                "userId":15280,
+                "name":"Rick",
+                "birthdate":null,
+                "nationality":"US"
+            },
+            {
+                "userId":25047,
+                "name":"Matt",
+                "birthdate":null,
+                "nationality":"California "
+            },
+            {
+                "userId":15541,
+                "name":"Andrea",
+                "birthdate":null,
+                "nationality":"Germany"
+            },
+            {
+                "userId":16252,
+                "name":"Heather",
+                "birthdate":null,
+                "nationality":"Chicago "
+            },
+            {
+                "userId":21693,
+                "name":"Adam Shields",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":18265,
+                "name":"Evan",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":22660,
+                "name":"Hunter",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":19413,
+                "name":"Hal Tepfer",
+                "birthdate":null,
+                "nationality":"Arlington Massachusetts"
+            },
+            {
+                "userId":22640,
+                "name":"Christine",
+                "birthdate":null,
+                "nationality":null
+            },
+            {
+                "userId":19919,
+                "name":"Julie",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":20110,
+                "name":"vic",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":25101,
+                "name":"Wulf C. Krueger",
+                "birthdate":null,
+                "nationality":"Germany"
+            },
+            {
+                "userId":23930,
+                "name":"Lori",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":25255,
+                "name":"Chris",
+                "birthdate":null,
+                "nationality":"California"
+            },
+            {
+                "userId":25100,
+                "name":"Tegan",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":25526,
+                "name":"Amz",
+                "birthdate":null,
+                "nationality":""
+            },
+            {
+                "userId":26431,
+                "name":"Alicia",
+                "birthdate":null,
+                "nationality":"Houston, TX"
+            },
+            {
+                "userId":26551,
+                "name":"Keith",
+                "birthdate":null,
+                "nationality":"Minneapolis, Minnesota "
+            },
+            {
+                "userId":27467,
+                "name":"Nicola Lambert",
+                "birthdate":null,
+                "nationality":"Watford"
+            }
+        ]
+    },
+    {
+        "bookId":591516,
+        "title":"Anna Komnene and the Alexiad",
         "publicationYear":2020,
-        "description":"A marriage contract Xu An Yi became the bride of the official sceneryHe said gently and estranged to her An An you and I have to marry each other when the matter is settled we will get a divorceShe nodded but bitterness spread in her heartWhen the day came when the dust settled Guan Jingyi would not be willing to let goStay with meXu JinNian trembled as he pushed him away Bastard let go of me Im going to look for the directorHis black eyes narrowed and his thin lips curled up into a sneer He grabbed her lower jaw and said You want to find a wild man You should at least pass my test ",
-        "language":"English"
+        "description":"Set in the Eastern Roman Empire during the First Crusade Annas story as an imperial princess and the medieval eras first female historian unfolds around a period of war and conflict Anna Komnene is one of the most curious figures in the history of an intriguing empire A woman of extraordinary education and intellect she was the only Byzantine female historian and one of the first and foremost historians in medieval Europe Yet few people know of her and her extraordinary story Subsequent historians and scholars have skewed the picture of Anna as an intellectual princess and powerful author She has been largely viewed as an angry bitter old woman who greedily wanted a throne that did not belong to her Accusations of conspiracy and attempted murder were hurled at her and as punishment for her transgressions she was to live the last days of her life in exile It was during her time in a convent where she was not a nun that she composed the Alexiad the history of the First Crusade and the Byzantine Emperor Alexios I Komnenos 10811118 her father This book aims to present Anna Komnene  the fascinating woman pioneer intellectual and charismatic author  to the general public Drawing on the latest academic research to reconstruct Annas life personality and work it moves away from the myth of Anna the conspirator and powerhungry woman which has been unfairly built around her over centuries of misrepresentation It places Anna Komnene in the context of her own time the ancient Greek colony and medieval Eastern Roman empire known as Byzantium with the magnificent city of Constantinople at its heart At the forefront of an epic clash between East and West this was a world renowned for its dazzling wealth mystery and power games It was also known for a vigorous intellectual renaissance centuries before its western counterpart This was a world with Anna Komnene directly at the center",
+        "language":"English",
+        "publisher":{
+            "publisherId":null,
+            "name":null,
+            "country":null
+        },
+        "reviews":[
+
+        ],
+        "users":[
+
+        ]
     },
     {
-        "bookId":588549,
-        "title":"Mind-Society",
-        "publicationYear":2019,
-        "description":"How do minds make societies and how do societies change Paul Thagard systematically connects neural and psychological explanations of mind with major social sciences social psychology sociology politics economics anthropology and history and professions medicine law education engineering and business Social change emerges from interacting social and mental mechanisms Many economists and political scientists assume that individuals make rational choices despite the abundance of evidence that people frequently succumb to thinking errors such as motivated inference Much of sociology and anthropology is taken over with postmodernist assumptions that everything is constructed on the basis of social relations such as power with no inkling that these relations are mediated by how people think about each other MindSociety displays the interdependence of the cognitive and social sciences by describing the interconnections among mental and social mechanisms which interact to generate social changes ranging from marriage patterns to wars Validation comes from detailed studies of important social changes from norms about romantic relationships to economic practices political institutions religious customs and international relations This book belongs to a trio that includes BrainMind From Neurons to Consciousness and Creativity and Natural Philosophy From Social Brains to Knowledge Reality Morality and Beauty They can be read independently but together they make up a Treatise on Mind and Society that provides a unified and comprehensive treatment of the cognitive sciences social sciences professions and humanities",
-        "language":"English"
+        "bookId":1598428,
+        "title":"Zo is het genoeg: het laatste jaar van Jan Wolkers",
+        "publicationYear":2008,
+        "description":"Beschrijving van het laatste levensjaar van de Nederlandse schrijver 19252007",
+        "language":"English",
+        "publisher":{
+            "publisherId":7240,
+            "name":"De Bezige Bij",
+            "country":"USA"
+        },
+        "reviews":[
+            {
+                "reviewId":5016882,
+                "score":null,
+                "comment":null,
+                "date":"2016-05-04"
+            }
+        ],
+        "users":[
+            {
+                "userId":22283,
+                "name":"Tim",
+                "birthdate":null,
+                "nationality":"Netherlands"
+            }
+        ]
     }
 ]

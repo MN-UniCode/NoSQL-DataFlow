@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import Cassandra.pyScript.Manager.API_Manager as Manager
 
-def generate_author_csv():
+def generate_author_file():
 
     # Define the dataframe
     dataFrame = {
