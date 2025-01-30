@@ -1,79 +1,85 @@
 [
     {
-        "authorId":172878,
-        "name":"Martin Fisher",
+        "authorId":110620,
+        "name":"Christine Feehan",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":214651,
-        "name":"Robert Goddard",
+        "authorId":99953,
+        "name":"Jonathan Clements",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":975639,
-        "name":"Janet Marinelli",
+        "authorId":570579,
+        "name":"Lois W. Banner",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":557036,
-        "name":"Mr. Serhan Cevik",
+        "authorId":239434,
+        "name":"Mark Anderson",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":557037,
-        "name":"Jo\u00e3o Tovar Jalles",
+        "authorId":171555,
+        "name":"Melissa Raphael",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":314615,
-        "name":"Cameron D\u00edaz",
+        "authorId":402411,
+        "name":"Christina Rice",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":311130,
-        "name":"Robert Bresson",
+        "authorId":172472,
+        "name":"Tony Fleecs",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":276015,
-        "name":"Jonathan Griffin",
+        "authorId":652754,
+        "name":"Heather Breckel",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":267104,
-        "name":"J.M.G. Le Cl\u00e9zio",
+        "authorId":622849,
+        "name":"Neil Uyetake",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":453000,
-        "name":"Graham   Thomas",
+        "authorId":199376,
+        "name":"Fran Baker",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":975641,
-        "name":"Cynthia Olsen",
+        "authorId":392478,
+        "name":"Alejandro Casona",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":390543,
-        "name":"Haley Cass",
+        "authorId":192966,
+        "name":"Louise Penny",
+        "birthdate":"1958-07-01",
+        "nationality":"Canada"
+    },
+    {
+        "authorId":347400,
+        "name":"Ioulia Kolovou",
         "birthdate":null,
         "nationality":null
     },
     {
-        "authorId":318009,
-        "name":"Elizabeth O'Roark",
+        "authorId":540220,
+        "name":"Onno Blom",
         "birthdate":null,
         "nationality":null
     }

@@ -1,22 +1,26 @@
 [
     {
-        "bookId":1660919,
-        "publisherId":11213
+        "bookId":1585765,
+        "publisherId":135
     },
     {
-        "bookId":1615543,
-        "publisherId":13544
+        "bookId":1627212,
+        "publisherId":135
     },
     {
-        "bookId":1574227,
-        "publisherId":244
+        "bookId":1598407,
+        "publisherId":175
     },
     {
-        "bookId":1615547,
-        "publisherId":12809
+        "bookId":1630887,
+        "publisherId":2290
     },
     {
-        "bookId":1467719,
-        "publisherId":76289
+        "bookId":1647641,
+        "publisherId":30002
+    },
+    {
+        "bookId":1598428,
+        "publisherId":7240
     }
 ]
