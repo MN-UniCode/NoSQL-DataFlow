@@ -3,6 +3,7 @@
 ## Overview
 This project sets up a multi-node Cassandra cluster using Docker Compose and integrates with Neo4j for graph-based data storage. 
 Python scripts are used to extract data from the Hardcover API and load them into the respective databases.
+To follow all the steps that we have done during this project and also replicate our queries and commands inside Cassandra and Neo4j you can examin our detailed [report](./ADM_Project.pdf).
 
 ## Requirements
 - Docker & Docker Compose
