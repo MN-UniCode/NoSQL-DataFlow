@@ -14,7 +14,7 @@ To follow all the steps that we have done during this project and also replicate
 
 ### Clone the Repository
 ```bash
-git clone [https://github.com/your-repo/cassandra-cluster.git](https://github.com/MN-UniCode/ADM-Project.git)
+git clone https://github.com/MN-UniCode/ADM-Project.git
 cd /path/ADM-Project
 ```
 
@@ -30,6 +30,7 @@ nano config.py
 ```
 
 ```python
+# config.py
 API_KEY = "your api-key"
 ```
 
