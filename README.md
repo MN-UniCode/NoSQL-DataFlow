@@ -1,7 +1,10 @@
-# ADM-Project
+# NoSQL-DataFlow
+
+## About this Project
+This project was developed as part of the **"Advanced Data Management"** course at the **University of Genoa**, within the Master's program in **Computer Engineering - Artificial Intelligence and Human-Centered Computing**.
 
 ## Overview
-This project sets up a multi-node Cassandra cluster using Docker Compose and integrates with Neo4j for graph-based data storage. 
+This project uses Docker Compose to set up a multi-node Cassandra cluster and integrates with Neo4j for graph-based data storage. 
 Python scripts are used to extract data from the Hardcover API and load them into the respective databases.
 To follow all the steps that we have done during this project and also replicate our queries and commands inside Cassandra and Neo4j you can examin our detailed [report](./ADM_Project.pdf).
 
@@ -14,8 +17,8 @@ To follow all the steps that we have done during this project and also replicate
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/MN-UniCode/ADM-Project.git
-cd /path/ADM-Project
+git clone [https://github.com/MN-UniCode/ADM-Project.git](https://github.com/MN-UniCode/NoSQL-DataFlow.git)
+cd /path/NoSQL-DataFlow
 ```
 
 ### API-KEY to extract data
@@ -24,7 +27,7 @@ You need to create a folder `config` inside the main directory of the project an
 
 Here the steps:
 ```bash
-cd ADM-Project
+cd NoSQL-DataFlow
 mkdir config
 nano config.py
 ```
